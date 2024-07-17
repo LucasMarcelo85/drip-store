@@ -1,8 +1,9 @@
-export const App = () => {
-  return (
-    <>
-      <h1>Hello</h1>
-    </>
-  )
-}
+import "./assets/styles/default.css";
 
+export function App() {
+    return (
+        <>
+            <h1>Hello</h1>
+        </>
+    );
+}
