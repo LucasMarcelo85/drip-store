@@ -1,5 +1,10 @@
 {
+    "prettier.enable": true,
+    "prettier.htmlWhitespaceSensitivity": "strict",
+    "prettier.tabWidth": 4,
     "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "prettier.semi": true,
+    "prettier.trailingComma": "all",
     "editor.formatOnSave": true,
     "[javascript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
