@@ -9,13 +9,15 @@
     "[javascript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    "[javascriptreact]": {
-    },
+    "[javascriptreact]": {},
     "[css]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "[json]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+        "editor.tabSize": 4
     },
 
     "editor.tabSize": 4
