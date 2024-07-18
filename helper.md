@@ -6,4 +6,48 @@
 
 -   `git checkout -b <seu_nome>`
 
-    > Exemplo: ` git checkout -b Isaac`
+    -   Exemplo: `git checkout -b Isaac`
+
+Esta será a sua branch em que você atuará, será nela que você fará os commits e git push
+
+### Padronização dos commits
+
+-   Ao dar o commit, busque ser objetivo no que está sendo feito junto de seu nome para a identificação na hora do merge na branch principal(main)
+
+    -   Exemplo: `git commit -m "isaac: fiz o component do Header e sua estilização"`
+
+### Padronização de arquivos em geral
+
+-   O nome do arquivo .css de cada component deve se chamar style.css
+
+-   O nome do arquivo .jsx e da função dentro DEVE ser escrita de acordo com o seu component
+
+    -   Exemplo:
+
+    ```
+        ├── src/
+            ├── compoments/
+                ├── Header
+                    ├── Header.jsx
+                    ├── style.css
+    ```
+
+    ```javascript
+    import "./style.css";
+
+    export function Header() {
+        return (
+            <header>
+                <h1>Olá eu sou um título :o</h1>
+            </header>
+        );
+    }
+    ```
+
+# Links úteis
+
+### [GITHUB DO PROJETO](https://github.com/digitalcollegebr/projeto-digital-store)
+
+### [FIGMA DO PROJETO](https://www.figma.com/design/cfb4F7ZXMFQmvmTn3PKI4z/DRIP-STORE---DIGITAL-COLLEGE?node-id=22-30)
+
+### [DRIVE DO PROJETO](https://drive.google.com/drive/folders/1LgU0dnoA8pJ2FDqNrIDYkTTE3yUz-Xfq?usp=sharing)
