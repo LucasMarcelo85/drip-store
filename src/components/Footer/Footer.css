@@ -1,0 +1,148 @@
+
+.footer {
+    width: 1440px;
+    height: 454px;
+    display: flex;
+    gap: 5rem;
+    /* align-items: center; */
+    /* justify-content: center; */
+    padding: 5rem 6rem;
+    background-color: #1f1f1f;
+    color: #FFFFFF;
+}
+
+.container-logo {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-logo  .logo {
+    width: 253px;
+    height: 44px;
+    top: 72px;
+    left: 104px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.container-logo  .logo .texto {
+    width: 307px;
+    height: 78px;
+    top: 151px;
+    left: 100px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    margin: 0;
+    padding: 0.2rem;
+    display: flex;
+    text-align: left;
+}
+
+.container-logo  .logo .redesLogo {
+    width: 124.12px;
+    height: 20.53px;
+    margin-top: 50px;
+    gap: 0.5rem 0;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.footerLogo {
+    width: 33px;
+    height: 33px;
+    top: 38px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.container-infos {
+    display: flex;
+    gap: 3rem;
+}
+
+
+.container-infos .listaInfos1 {
+    width: 135px;
+    height: 278px;
+    top: 72px;
+    left: 612px;
+    gap: 0px;
+    opacity: 0px;
+    padding: 4rem;
+    list-style-type: none;
+
+}
+
+
+.container-infos .listaInfos2 {
+    width: 96px;
+    height: 240px;
+    top: 72px;
+    left: 849px;
+    gap: 0px;
+    opacity: 0px;
+    margin: 0.5rem;
+    padding: 4rem;
+    list-style-type: none;
+
+}
+
+.container-infos .listaInfos3 {
+    width: 233px;
+    height: 168px;
+    top: 72px;
+    left: 1113px;
+    gap: 0px;
+    opacity: 0px;
+    padding: 4rem;
+    list-style-type: none;
+
+}
+
+.container-infos .topicos1 {
+    width: 99px;
+    height: 22px;
+    top: 72px;
+    left: 612px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.78px;
+    text-align: left;
+
+}
+
+.container-infos .topicos2 {
+    width: 96px;
+    height: 22px;
+    top: 72px;
+    left: 849px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.78px;
+    text-align: left;
+}
+
+
+.container-infos .topicos3 {
+    width: 71px;
+    height: 22px;
+    top: 72px;
+    left: 1113px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.78px;
+    text-align: left;
+}
