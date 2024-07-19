@@ -1,0 +1,5 @@
+.product-listing-header-container {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
