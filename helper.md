@@ -29,11 +29,11 @@ Esta será a sua branch em que você atuará, será nela que você fará os comm
             ├── compoments/
                 ├── Header
                     ├── Header.jsx
-                    ├── style.css
+                    ├── Header.css
     ```
 
     ```javascript
-    import "./style.css";
+    import "./Header.css";
 
     export function Header() {
         return (

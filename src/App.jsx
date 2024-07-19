@@ -1,14 +1,13 @@
-
 import "./../public/styles/default.css";
-import { Header } from "./components/Header/Header";
-import { Footer } from "./components/Footer/Footer"; 
+import { FeaturedCollections } from "./components/FeaturedCollections/FeaturedCollections";
+import { ProductListening } from "./components/ProductListing/ProductListing";
 
 export function App() {
     return (
         <>
-            <Header />
+            <FeaturedCollections />
+            <ProductListening />
 
-            <Footer />
         </>
     );
 }
