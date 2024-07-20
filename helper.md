@@ -51,3 +51,5 @@ Esta será a sua branch em que você atuará, será nela que você fará os comm
 ### [FIGMA DO PROJETO](https://www.figma.com/design/cfb4F7ZXMFQmvmTn3PKI4z/DRIP-STORE---DIGITAL-COLLEGE?node-id=22-30)
 
 ### [DRIVE DO PROJETO](https://drive.google.com/drive/folders/1LgU0dnoA8pJ2FDqNrIDYkTTE3yUz-Xfq?usp=sharing)
+
+### [TEMPLATE](https://e-commerce-digital-drip-store.vercel.app)
