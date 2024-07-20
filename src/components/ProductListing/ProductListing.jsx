@@ -4,12 +4,7 @@ import { ProductCard } from "./../ProductCard/ProductCard";
 
 export function ProductListening() {
     return (
-        <Section>
-            <div className="product-listing-header-container">
-                <h1>Produtos em alta</h1>
-                <a href="#"> Ver todos </a>
-            </div>
-
+        <Section title={"Produtos em alta"}>
             <ProductCard />
             <ProductCard />
             <ProductCard />
