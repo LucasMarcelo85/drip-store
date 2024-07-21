@@ -32,74 +32,76 @@ do Ceará em parceria com o Instituto Euvaldo Lovaldi (IEL) e a ADECE
 
 ## <img src="https://github.com/user-attachments/assets/27d4632a-0298-4816-9131-9f762ff14a60" width="25" height="25"/> Organização de Pastas
 
-```markdown
+```
 ├── .vscode/
 ├── settings.json
-
 ├── public/
-├── IMG/
-├── collection-images/
-├── home-images/
-├── product-images/
-├── product-thumb-images/
-
-    ├── styles/
-        default.css
-
-    ├── svgs/
-
-├── src
-├── components
-
-    ├── BuyBox/
-        ├── BuyBox.css
-        ├── BuyBox.jsx
-
-        ├── FeaturedCollections/
-            ├── FeaturedCollections.css
-            ├── FeaturedCollections.jsx
-
-        ├── FilterGroup/
-            ├── FilterGroup.css
-            ├── FilterGroup.jsx
-
-        ├── Footer/
-            ├── Footer.css
-            ├── Footer.jsx
-
-        ├── Header/
-            ├── Header.css
-            ├── Header.jsx
-
-        ├── ProductCard/
-            ├── ProductCard.css
-            ├── ProductCard.jsx
-
-        ├── ProductDetails/
-            ├── ProductDetails.css
-            ├── ProductDetails.jsx
-
-        ├── ProductListing/
-            ├── ProductListing.css
-            ├── ProductListing.jsx
-
-        ├── ProductOptions/
-            ├── ProductOptions.css
-            ├── ProductOptions.jsx
-
-        ├── Section/
-            ├── Section.css
-            ├── Section.jsx
-
-    ├── pages
-        ├── HomePage.jsx
-        ├── NotFound.jsx
-        ├── ProductListingPage.jsx
-        ├── ProductViewPage.jsx
-
-    ├── routes
-        ├── AppRoutes.jsx
-
+│
+│    ├── IMG/
+│    │
+│    │    ├── collection-images/
+│    │    ├── home-images/
+│    │    ├── product-images/
+│    │    ├── product-thumb-images/
+│    │
+│    ├── styles/
+│    │    default.css
+│    │
+│    ├── svgs/
+│
+├── src/
+│
+│    ├── components
+│    │
+│    │    ├── BuyBox/
+│    │        ├── BuyBox.css
+│    │        ├── BuyBox.jsx
+│    │
+│    │    ├── FeaturedCollections/
+│    │        ├── FeaturedCollections.css
+│    │        ├── FeaturedCollections.jsx
+│    │
+│    │    ├── FilterGroup/
+│    │        ├── FilterGroup.css
+│    │        ├── FilterGroup.jsx
+│    │
+│    │    ├── Footer/
+│    │        ├── Footer.css
+│    │            ├── Footer.jsx
+│    │
+│    │        ├── Header/
+│    │            ├── Header.css
+│    │            ├── Header.jsx
+│    │
+│    │        ├── ProductCard/
+│    │            ├── ProductCard.css
+│    │            ├── ProductCard.jsx
+│    │
+│    │        ├── ProductDetails/
+│    │            ├── ProductDetails.css
+│    │            ├── ProductDetails.jsx
+│    │
+│    │        ├── ProductListing/
+│    │            ├── ProductListing.css
+│    │            ├── ProductListing.jsx
+│    │
+│    │        ├── ProductOptions/
+│    │            ├── ProductOptions.css
+│    │            ├── ProductOptions.jsx
+│    │
+│    │        ├── Section/
+│    │            ├── Section.css
+│    │            ├── Section.jsx
+│    │
+│    ├── pages
+│    │    ├── HomePage.jsx
+│    │    ├── NotFound.jsx
+│    │    ├── ProductListingPage.jsx
+│    │    ├── ProductViewPage.jsx
+│    │
+│    ├── routes
+│        ├── AppRoutes.jsx
+│
 ├── .eslintrc.cjs
 ├── .gitignore
 ├── helper.md
@@ -113,8 +115,8 @@ do Ceará em parceria com o Instituto Euvaldo Lovaldi (IEL) e a ADECE
 
 ## Membros ativos do projeto
 
-|                                               Profile                                                |     Nome Completo     |                                                                                                                                                                                                                                                                                                          |     |
-| :--------------------------------------------------------------------------------------------------: | :-------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :-: |
+|                                               Profile                                                |     Nome Completo     |                                                                                                                                                                                                                                                                                                          |
+| :--------------------------------------------------------------------------------------------------: | :-------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 |     [<img src="https://github.com/DevSaLLein.png" height="90px">](https://github.com/DevSaLLein)     | Isaac Lima de Andrade | [<img src="https://img.shields.io/badge/-GitHub-black?style=for-the-badge&logo=github&logoColor=white"/>](https://github/DevSaLLein) <br/> [<img src="https://img.shields.io/badge/-Instagram-hotpink?style=for-the-badge&logo=instagram&logoColor=white"/>](https://www.instagram.com/http.zaclimaaxs/) |
 | [<img src="https://github.com/LucasMarcelo85.png" height="90px">](https://github.com/LucasMarcelo85) |                       |                                                                                 [<img src="https://img.shields.io/badge/-GitHub-black?style=for-the-badge&logo=github&logoColor=white"/>](https://github/LucasMarcelo85)                                                                                 |
 |   [<img src="https://github.com/MatheusDeV55.png" height="90px">](https://github.com/MatheusDeV55)   |                       |                                                                                  [<img src="https://img.shields.io/badge/-GitHub-black?style=for-the-badge&logo=github&logoColor=white"/>](https://github/MatheusDeV55)                                                                                  |
