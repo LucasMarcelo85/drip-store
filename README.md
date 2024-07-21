@@ -67,31 +67,31 @@ do Ceará em parceria com o Instituto Euvaldo Lovaldi (IEL) e a ADECE
 │    │
 │    │    ├── Footer/
 │    │        ├── Footer.css
-│    │            ├── Footer.jsx
+│    │        ├── Footer.jsx
 │    │
-│    │        ├── Header/
-│    │            ├── Header.css
-│    │            ├── Header.jsx
+│    │    ├── Header/
+│    │        ├── Header.css
+│    │        ├── Header.jsx
 │    │
-│    │        ├── ProductCard/
-│    │            ├── ProductCard.css
-│    │            ├── ProductCard.jsx
+│    │    ├── ProductCard/
+│    │        ├── ProductCard.css
+│    │        ├── ProductCard.jsx
 │    │
-│    │        ├── ProductDetails/
-│    │            ├── ProductDetails.css
-│    │            ├── ProductDetails.jsx
+│    │    ├── ProductDetails/
+│    │        ├── ProductDetails.css
+│    │        ├── ProductDetails.jsx
 │    │
-│    │        ├── ProductListing/
-│    │            ├── ProductListing.css
-│    │            ├── ProductListing.jsx
+│    │    ├── ProductListing/
+│    │        ├── ProductListing.css
+│    │        ├── ProductListing.jsx
 │    │
-│    │        ├── ProductOptions/
-│    │            ├── ProductOptions.css
-│    │            ├── ProductOptions.jsx
+│    │    ├── ProductOptions/
+│    │        ├── ProductOptions.css
+│    │        ├── ProductOptions.jsx
 │    │
-│    │        ├── Section/
-│    │            ├── Section.css
-│    │            ├── Section.jsx
+│    │    ├── Section/
+│    │        ├── Section.css
+│    │        ├── Section.jsx
 │    │
 │    ├── pages
 │    │    ├── HomePage.jsx
