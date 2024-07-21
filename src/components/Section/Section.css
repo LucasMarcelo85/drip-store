@@ -11,4 +11,5 @@
 .section-container > h1 {
     width: 100%;
     text-align: left;
+    color: var(--dark-gray-2);
 }
