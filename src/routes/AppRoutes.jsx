@@ -9,8 +9,8 @@ export function AppRoutes() {
         <BrowserRouter>
             <Routes>
                 <Route index element={<HomePage />} />
-                <Route path="/products" element={<ProductListeningPage />} />
-                <Route path="/product" element={<ProductViewPage />} />
+                <Route path="/produtos" element={<ProductListeningPage />} />
+                <Route path="/produto" element={<ProductViewPage />} />
             </Routes>
         </BrowserRouter>
     );
