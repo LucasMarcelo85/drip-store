@@ -3,8 +3,8 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    gap: 20px;
-    max-width: 1230px;
+    gap: 10px;
+    max-width: 1235px;
     margin: 0 auto;
 }
 
@@ -12,4 +12,12 @@
     width: 100%;
     text-align: left;
     color: var(--dark-gray-2);
+}
+
+.section-container > div {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }

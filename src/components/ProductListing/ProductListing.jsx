@@ -4,7 +4,7 @@ import { ProductCard } from "./../ProductCard/ProductCard";
 
 export function ProductListening() {
     return (
-        <Section title={"Produtos em alta"}>
+        <Section>
             <ProductCard />
             <ProductCard />
             <ProductCard />

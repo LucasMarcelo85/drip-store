@@ -2,11 +2,14 @@ import PropTypes from "prop-types";
 
 import "./Section.css";
 
-export function Section({ children, title }) {
+export function Section({ children, title = "", titleAlign = "left" }) {
     return (
-        <section className="section-container">
+        <section
+            className="section-container"
+            style={{ textAlign: titleAlign }}
+        >
             <h1>{title}</h1>
-            {children}
+            <div>{children}</div>
         </section>
     );
 }
@@ -14,4 +17,5 @@ export function Section({ children, title }) {
 Section.propTypes = {
     children: PropTypes.node,
     title: PropTypes.string,
+    titleAlign: PropTypes.string,
 };
