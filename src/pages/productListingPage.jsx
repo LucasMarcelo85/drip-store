@@ -1,5 +1,5 @@
-import { Section } from "./../components/Section/Section";
-import { ProductListening } from "./../components/ProductListing/ProductListing";
+import { Section } from "../components/Section/Section";
+import { ProductListening } from "../components/ProductListing/ProductListing";
 import { ProductCard } from "../components/ProductCard/ProductCard";
 
 export function ProductListeningPage() {
