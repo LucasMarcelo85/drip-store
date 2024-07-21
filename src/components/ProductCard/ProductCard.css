@@ -1,12 +1,12 @@
 .product-card-container {
-    width: 292px;
+    width: 300px;
     height: max-content;
 }
 
 .figure-container {
     position: relative;
-    width: 100%;
-    height: max-content;
+    width: inherit;
+    height: 321px;
 }
 
 .product-image {
@@ -28,6 +28,9 @@
     background-color: #e7ff86;
 }
 
+.product-container-informations {
+    padding: 10px;
+}
 .product-container-informations > h2 {
     color: var(--light-gray);
     font-size: 12px;
