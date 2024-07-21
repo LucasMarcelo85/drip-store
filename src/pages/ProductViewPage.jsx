@@ -8,7 +8,7 @@ export function ProductViewPage() {
         <>
             <BuyBox />
 
-            <Section>
+            <Section title="Produtos Relacionados">
                 <ProductListening>
                     <ProductCard />
                     <ProductCard />

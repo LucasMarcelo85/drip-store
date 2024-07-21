@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 
 import "./Section.css";
 
-export function Section({ children, title }) {
+export function Section({ children, title = "" }) {
     return (
         <section className="section-container">
             <h1>{title}</h1>
