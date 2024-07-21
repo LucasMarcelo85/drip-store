@@ -34,73 +34,113 @@ do Ceará em parceria com o Instituto Euvaldo Lovaldi (IEL) e a ADECE
 
 ```
 ├── .vscode/
-├── settings.json
+│    ├── settings.json
+│
 ├── public/
 │
 │    ├── IMG/
 │    │
 │    │    ├── collection-images/
+│    │    │   ├── collection-1.png
+│    │    │   ├── collection-2.png
+│    │    │   ├── collection-3.png
+│    │    │
 │    │    ├── home-images/
+│    │    │   ├── home-slide-1.jpeg
+│    │    │   ├── home-slide-2.jpeg
+│    │    │   ├── home-slide-3.jpeg
+│    │    │   ├── home-slide-4.jpeg
+│    │    │   ├── home-slide-5.jpeg
+│    │    │   ├── home-slide-6.jpeg
+│    │    │   ├── home-slide-7.jpeg
+│    │    │   ├── home-slide-8.jpeg
+│    │    │
 │    │    ├── product-images/
+│    │    │   ├── product-image-1.jpeg
+│    │    │   ├── product-image-2.jpeg
+│    │    │   ├── product-image-3.jpeg
+│    │    │   ├── product-image-4.jpeg
+│    │    │   ├── product-image-5.jpeg
+│    │    │
 │    │    ├── product-thumb-images/
+│    │    │   ├── product-thumb-1.jpeg
+│    │    │   ├── product-thumb-2.jpeg
+│    │    │   ├── product-thumb-3.jpeg
+│    │    │   ├── product-thumb-4.jpeg
+│    │    │   ├── product-thumb-5.jpeg
 │    │
 │    ├── styles/
 │    │    default.css
 │    │
 │    ├── svgs/
+│    │    ├── arrow-left.svg
+│    │    ├── arrow-right.svg
+│    │    ├── facebook.svg
+│    │    ├── instagram.svg
+│    │    ├── logo-footer.svg
+│    │    ├── logo-header.svg
+│    │    ├── mini-cart.svg
+│    │    ├── star-active.svg
+│    │    ├── star-desactive.svg
+│    │    ├── star-icon.svg
+│    │    ├── star-white.svg
+│    │    ├── twitter.svg
 │
 ├── src/
 │
-│    ├── components
+│    ├── components/
 │    │
 │    │    ├── BuyBox/
-│    │        ├── BuyBox.css
-│    │        ├── BuyBox.jsx
-│    │
+│    │    │   ├── BuyBox.css
+│    │    │   ├── BuyBox.jsx
+│    │    │
 │    │    ├── FeaturedCollections/
-│    │        ├── FeaturedCollections.css
-│    │        ├── FeaturedCollections.jsx
-│    │
+│    │    │   ├── FeaturedCollections.css
+│    │    │   ├── FeaturedCollections.jsx
+│    │    │
 │    │    ├── FilterGroup/
-│    │        ├── FilterGroup.css
-│    │        ├── FilterGroup.jsx
-│    │
+│    │    │   ├── FilterGroup.css
+│    │    │   ├── FilterGroup.jsx
+│    │    │
 │    │    ├── Footer/
-│    │        ├── Footer.css
-│    │        ├── Footer.jsx
-│    │
+│    │    │   ├── Footer.css
+│    │    │   ├── Footer.jsx
+│    │    │
 │    │    ├── Header/
-│    │        ├── Header.css
-│    │        ├── Header.jsx
-│    │
+│    │    │   ├── Header.css
+│    │    │   ├── Header.jsx
+│    │    │
 │    │    ├── ProductCard/
-│    │        ├── ProductCard.css
-│    │        ├── ProductCard.jsx
-│    │
+│    │    │   ├── ProductCard.css
+│    │    │   ├── ProductCard.jsx
+│    │    │
 │    │    ├── ProductDetails/
-│    │        ├── ProductDetails.css
-│    │        ├── ProductDetails.jsx
-│    │
+│    │    │   ├── ProductDetails.css
+│    │    │   ├── ProductDetails.jsx
+│    │    │
 │    │    ├── ProductListing/
-│    │        ├── ProductListing.css
-│    │        ├── ProductListing.jsx
-│    │
+│    │    │   ├── ProductListing.css
+│    │    │   ├── ProductListing.jsx
+│    │    │
 │    │    ├── ProductOptions/
-│    │        ├── ProductOptions.css
-│    │        ├── ProductOptions.jsx
-│    │
+│    │    │   ├── ProductOptions.css
+│    │    │   ├── ProductOptions.jsx
+│    │    │
 │    │    ├── Section/
-│    │        ├── Section.css
-│    │        ├── Section.jsx
+│    │    │   ├── Section.css
+│    │    │   ├── Section.jsx
 │    │
-│    ├── pages
+│    ├── pages/
 │    │    ├── HomePage.jsx
 │    │    ├── NotFound.jsx
 │    │    ├── ProductListingPage.jsx
 │    │    ├── ProductViewPage.jsx
 │    │
-│    ├── routes
-│        ├── AppRoutes.jsx
+│    ├── routes/
+│    │    ├── AppRoutes.jsx
+│    │
+│    ├── App.jsx
+│    ├── main.jsx
 │
 ├── .eslintrc.cjs
 ├── .gitignore
