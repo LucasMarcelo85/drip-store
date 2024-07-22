@@ -1,0 +1,22 @@
+.home {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+.nav {
+    margin: 0 0 0 4%;
+}
+
+.home a:hover {
+    color: #c92071;
+}
+
+.home a.active-link {
+    font-weight: 800;
+    text-decoration: underline;
+}
+
+.home a {
+    text-decoration: none;
+    color: black;
+}

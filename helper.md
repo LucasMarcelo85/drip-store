@@ -16,6 +16,8 @@ Esta será a sua branch em que você atuará, será nela que você fará os comm
 
     -   Exemplo: `git commit -m "isaac: fiz o component do Header e sua estilização"`
 
+### Padronização de nome de classes CSS
+
 ### Padronização de arquivos em geral
 
 -   O nome do arquivo .css de cada component deve se chamar style.css
@@ -29,11 +31,11 @@ Esta será a sua branch em que você atuará, será nela que você fará os comm
             ├── compoments/
                 ├── Header
                     ├── Header.jsx
-                    ├── style.css
+                    ├── Header.css
     ```
 
     ```javascript
-    import "./style.css";
+    import "./Header.css";
 
     export function Header() {
         return (
@@ -44,6 +46,19 @@ Esta será a sua branch em que você atuará, será nela que você fará os comm
     }
     ```
 
+-   Buscar ao máximo especificar a class daquela tag que se deseja utilizar utilizando kebab-case
+
+    -   Exemplo:
+
+    ```css
+    .header-container {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+    }
+    ```
+
 # Links úteis
 
 ### [GITHUB DO PROJETO](https://github.com/digitalcollegebr/projeto-digital-store)
@@ -51,3 +66,5 @@ Esta será a sua branch em que você atuará, será nela que você fará os comm
 ### [FIGMA DO PROJETO](https://www.figma.com/design/cfb4F7ZXMFQmvmTn3PKI4z/DRIP-STORE---DIGITAL-COLLEGE?node-id=22-30)
 
 ### [DRIVE DO PROJETO](https://drive.google.com/drive/folders/1LgU0dnoA8pJ2FDqNrIDYkTTE3yUz-Xfq?usp=sharing)
+
+### [TEMPLATE](https://e-commerce-digital-drip-store.vercel.app)
