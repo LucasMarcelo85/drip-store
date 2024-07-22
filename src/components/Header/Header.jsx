@@ -51,13 +51,15 @@ export function Header() {
                         <tr><a href="#">Home</a></tr>
                         <tr><a href="#">Produtos</a></tr>
                         <tr><a href="#">Categorias</a></tr>
-                        <tr><a href="#">Meus Pedidos</a></tr>
+                        <tr id="nomes"><a href="#">Meus Pedidos</a></tr>
                     </td>
 
 
                 </div>
             </nav>
 
-        </header>
+            </header>
     );
 }
+
+

@@ -1,3 +1,14 @@
+header{
+    font: inherit;
+    vertical-align: baseline;
+    font-size: 100%;
+    border: 0;
+    margin: 0;
+    padding: 0
+    
+    
+    
+}
 .header{
     display: flex;
     /* justify-content: space-around; */
@@ -55,12 +66,12 @@
 .Ellipse img{
     width: 14px;
     margin-top: 0.8%;
-    right: 16.8%;
+    right: 14.8%;
     
 }
 
 .dois img{
-    right: 17%;
+    right: 15%;
     width: 8px;
     margin-top: 0.8%;
     
@@ -76,11 +87,18 @@
 .home{
     display: flex;
     flex-direction: row;
+    border-collapse: collapse;
+    border-spacing: 0;
    
 }
 .home tr{
-    margin-left: 3%;
+    margin-left: 6%;
+    display: flex;
+    white-space: nowrap;
+   
 }
+
+
 .nav{
     margin: 0 0 0 4%;
 }
@@ -93,3 +111,6 @@
     text-decoration: none;
     color: black;
 }
+
+/* ----------------------------------------- MOBILE */
+
