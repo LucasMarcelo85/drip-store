@@ -1,0 +1,9 @@
+.products-container {
+    display: flex;
+    gap: 20px;
+}
+
+.colecoes-destaque-container {
+    margin-bottom: 200px;
+    background-color: pink;
+}

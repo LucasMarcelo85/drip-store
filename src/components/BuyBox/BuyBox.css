@@ -1,3 +1,7 @@
+.buy-box-container {
+    align-self: flex-start;
+}
+
 .buy-box-container > .buy-box-header {
     max-width: 440px;
 }

@@ -1,6 +1,6 @@
-import PropTypes from "prop-types";
-
 import "./Section.css";
+
+import PropTypes from "prop-types";
 
 export function Section({ children, title = "", titleAlign = "left" }) {
     return (

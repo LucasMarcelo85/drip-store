@@ -4,6 +4,7 @@ import minicart from "./../../../public/svgs/mini-cart.svg";
 import Ellipse from "./../../../public/svgs/Ellipse 12.svg";
 import dois from "./../../../public/svgs/dois.svg";
 import lupa from "./../../../public/svgs/Search.svg";
+import { Navigator } from './../Navigatior/Navigator';
 
 export function Header() {
     return (
@@ -14,12 +15,12 @@ export function Header() {
                     <img src={headerlogo} alt="Logo Digital Store" />
                 </div>
 
-                <div class="inputs">
+                <div className="inputs">
                     <input type="text" placeholder="Pesquisar Produto" />
                     <img src={lupa} alt="lupa" />
                 </div>
 
-                <div class="icons">
+                <div className="icons">
                     <a href="">Cadastre-se</a>
                     <button>Entrar</button>
 
@@ -29,12 +30,8 @@ export function Header() {
                     <div className="carrinho">
                         <img src={minicart} alt="carrinho" />
 
-
-
-
                         <div className="Ellipse">
                             <img src={Ellipse} alt="Ellipse" />
-
 
                             <div className="dois">
                                 <img src={dois} alt="2" />
@@ -51,14 +48,14 @@ export function Header() {
                         <tr><a href="#">Home</a></tr>
                         <tr><a href="#">Produtos</a></tr>
                         <tr><a href="#">Categorias</a></tr>
-                        <tr id="nomes"><a href="#">Meus Pedidos</a></tr>
+                        <tr><a href="#">Meus Pedidos</a></tr>
                     </td>
 
 
                 </div>
             </nav>
 
-            </header>
+        </header>
     );
 }
 
