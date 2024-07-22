@@ -6,13 +6,6 @@ header{
     font: inherit;
     vertical-align: baseline;
 }
-.header{
-    display: flex;
-    /* justify-content: space-around; */
-    height: 20vh;
-    box-sizing: border-box;
-    padding: 2% 1% 0 7%;
-}
 
 .inputs {
     width: 30vw;
@@ -70,8 +63,7 @@ header{
     /* background-color: blue; */
     width: 17px;
     position: absolute;
-    right:45%;
-    
+    right: 45%;
 }
 .home{
     white-space: nowrap;
@@ -82,14 +74,15 @@ header{
 }
 
 .nav{
+
     margin: 0 0 0 4%;
 }
 
-.home tr a:hover{
-    color: #C92071;
+.home tr a:hover {
+    color: #c92071;
 }
 
-.home a{
+.home a {
     text-decoration: none;
     color: black;
 }

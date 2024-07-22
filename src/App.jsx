@@ -1,10 +1,11 @@
 import "./../public/styles/default.css";
-import { Article } from './components/articloo/article';
+
+import { AppRoutes } from './routes/AppRoutes';
 
 export function App() {
     return (
         <>
-            <Article />
+            <AppRoutes />
         </>
     );
 }
