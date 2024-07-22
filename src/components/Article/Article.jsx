@@ -18,5 +18,7 @@ export function Article() {
                 </tr>
             </table></div>
         </article>
+
+
     )
 }

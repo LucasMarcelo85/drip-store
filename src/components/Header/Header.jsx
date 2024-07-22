@@ -3,7 +3,11 @@ import "./Header.css";
 import { Navigator } from './../Navigator/Navigator';
 
 import logoHeader from './../../../public/svgs/logo-header.svg'
-
+import headerlogo from "./../../../public/svgs/logo-header.svg";
+import minicart from "./../../../public/svgs/mini-cart.svg";
+import ellipse from "./../../../public/svgs/ellipse.svg";
+import dois from "./../../../public/svgs/dois.svg";
+import lupa from "./../../../public/svgs/search.svg";
 
 export function Header() {
     return (
@@ -13,7 +17,6 @@ export function Header() {
 
                 <label>
                     <input type="text" placeholder="Pesquisar produto" />
-
                 </label>
             </section>
 
