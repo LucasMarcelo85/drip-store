@@ -2,10 +2,12 @@ import { Section } from "../components/Section/Section";
 import { ProductListening } from "./../components/ProductListing/ProductListing";
 import { ProductCard } from "./../components/ProductCard/ProductCard";
 import { FeaturedCollections } from "./../components/FeaturedCollections/FeaturedCollections";
+import { Layout } from './../components/Layout/Layout';
 
 export function HomePage() {
     return (
-        <>
+        <Layout>
+
             <Section title="Coleção em destaque">
                 <FeaturedCollections />
             </Section>
@@ -20,6 +22,6 @@ export function HomePage() {
                     <ProductCard />
                 </ProductListening>
             </Section>
-        </>
+        </Layout>
     );
 }

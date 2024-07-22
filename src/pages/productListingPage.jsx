@@ -1,10 +1,11 @@
 import { Section } from "../components/Section/Section";
 import { ProductListening } from "../components/ProductListing/ProductListing";
 import { ProductCard } from "../components/ProductCard/ProductCard";
+import { Layout } from './../components/Layout/Layout';
 
 export function ProductListeningPage() {
     return (
-        <main>
+        <Layout>
             <Section>
                 <ProductListening>
                     <ProductCard />
@@ -14,6 +15,6 @@ export function ProductListeningPage() {
                     <ProductCard />
                 </ProductListening>
             </Section>
-        </main>
+        </Layout>
     );
 }

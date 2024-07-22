@@ -1,4 +1,4 @@
-.header{
+.header {
     display: flex;
     /* justify-content: space-around; */
     height: 20vh;
@@ -6,90 +6,59 @@
     padding: 2% 1% 0 7%;
 }
 
-.inputs{
+.inputs {
     width: 30vw;
     height: 8vh;
     display: flex;
     align-items: center;
 }
-.inputs input{
+.inputs input {
     height: 5vh;
     background-color: rgb(239, 233, 233);
     border: none;
     border-radius: 5px;
     width: 60vw;
     margin-left: 7%;
-    
-    
 }
-.icons{
-
+.icons {
     width: 25vw;
     height: 8vh;
     display: flex;
     justify-content: space-around;
-    align-items: center;    
+    align-items: center;
 }
 
 .icons a {
-    color:rgb(120, 118, 118) ;
-    
+    color: rgb(120, 118, 118);
 }
 .icons button {
-    background-color: #C92071;
+    background-color: #c92071;
     height: 6vh;
-    width: 8vw;   
+    width: 8vw;
     color: white;
     border: none;
     border-radius: 5px;
-    
 }
-.carrinho img{
+.carrinho img {
     position: absolute;
     width: 25px;
     margin-top: 1%;
-    
 }
 
-
-.Ellipse img{
+.Ellipse img {
     width: 14px;
     margin-top: 0.8%;
     right: 16.8%;
-    
 }
 
-.dois img{
+.dois img {
     right: 17%;
     width: 8px;
     margin-top: 0.8%;
-    
-    
 }
 .inputs img {
     /* background-color: blue; */
     width: 17px;
     position: absolute;
-    right:45%;
-    
-}
-.home{
-    display: flex;
-    flex-direction: row;
-   
-}
-.home tr{
-    margin-left: 3%;
-}
-.nav{
-    margin: 0 0 0 4%;
-}
-
-.home tr a:hover{
-    color: #C92071;
-}
-
-.home a{
-    text-decoration: none;
-    color: black;
+    right: 45%;
 }
