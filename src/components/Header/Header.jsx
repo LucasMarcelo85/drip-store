@@ -1,46 +1,21 @@
 import "./Header.css";
-import headerlogo from "./../../../public/svgs/logo-header.svg";
-import minicart from "./../../../public/svgs/mini-cart.svg";
-import Ellipse from "./../../../public/svgs/Ellipse 12.svg";
-import dois from "./../../../public/svgs/dois.svg";
-import lupa from "./../../../public/svgs/Search.svg";
-import { Navigator } from '../Navigator/Navigator';
+
+import { Navigator } from './../Navigator/Navigator';
+
+import logoHeader from './../../../public/svgs/logo-header.svg'
 
 
 export function Header() {
     return (
-        <header>
+        <header className="header-container">
+            <section>
+                <img src={logoHeader} alt="logo header" />
 
-            <div className="header">
-                <div className="logo">
-                    <img src={headerlogo} alt="Logo Digital Store" />
-                </div>
+                <label>
+                    <input type="text" placeholder="Pesquisar produto" />
 
-                <div className="inputs">
-                    <input type="text" placeholder="Pesquisar Produto" />
-                    <img src={lupa} alt="lupa" />
-                </div>
-
-                <div className="icons">
-                    <a href="">Cadastre-se</a>
-                    <button>Entrar</button>
-
-                </div>
-                <div className="buy">
-
-                    <div className="carrinho">
-                        <img src={minicart} alt="carrinho" />
-
-                        <div className="Ellipse">
-                            <img src={Ellipse} alt="Ellipse" />
-
-                            <div className="dois">
-                                <img src={dois} alt="2" />
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+                </label>
+            </section>
 
             <Navigator />
         </header>

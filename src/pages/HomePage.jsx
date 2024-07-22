@@ -4,7 +4,7 @@ import { ProductCard } from "./../components/ProductCard/ProductCard";
 import { FeaturedCollections } from "./../components/FeaturedCollections/FeaturedCollections";
 import { Layout } from './../components/Layout/Layout';
 import { HomePageCarousel } from "../components/HomePageCarousel/HomePageCarousel";
-import { Article } from './../components/articloo/article';
+import { Article } from './../components/Article/Article';
 
 export function HomePage() {
 

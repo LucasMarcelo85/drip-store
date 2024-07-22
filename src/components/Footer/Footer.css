@@ -1,5 +1,6 @@
 .footer {
-    width: 1440px;
+    width: 100vw;
+    padding: 50px;
     height: 454px;
     background-color: #1f1f1f;
     color: #ffffff;
@@ -53,7 +54,6 @@
     align-items: start;
     gap: 5rem;
 }
-
 
 .container-infos .listaInfos1 {
     width: 135px;
