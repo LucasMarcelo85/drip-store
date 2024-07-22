@@ -1,5 +1,6 @@
 import "./Article.css";
-import Pe from "./../../../public/svgs/Laye 1.svg";
+
+import Pe from "./../../../public/svgs/laye.svg";
 
 export function Article() {
     return (
@@ -18,7 +19,5 @@ export function Article() {
                 </tr>
             </table></div>
         </article>
-
-
     )
 }

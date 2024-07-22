@@ -2,6 +2,7 @@ import { Section } from "../components/Section/Section";
 import { ProductListening } from "../components/ProductListing/ProductListing";
 import { ProductCard } from "../components/ProductCard/ProductCard";
 import { Layout } from './../components/Layout/Layout';
+import { ProductOptions } from "../components/ProductOptions/ProductOptions";
 
 export function ProductListeningPage() {
 
@@ -64,6 +65,8 @@ export function ProductListeningPage() {
     ]
     return (
         <Layout>
+            <ProductOptions />
+
             <Section>
                 <ProductListening>
                     {produtos.map((produto, key) => <ProductCard key={key} produto={produto} />)}

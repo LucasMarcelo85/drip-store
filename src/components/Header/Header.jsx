@@ -8,37 +8,16 @@ import { Navigator } from '../Navigator/Navigator';
 
 export function Header() {
     return (
-        <header>
 
-            <div className="header">
-                <div className="logo">
-                    <img src={headerlogo} alt="Logo Digital Store" />
-                </div>
+        <header className="header-container">
+            <section>
+                <img src={logoHeader} alt="logo header" />
 
-                <div className="inputs">
-                    <input type="text" placeholder="Pesquisar Produto" />
-                    <img src={lupa} alt="lupa" />
-                </div>
+                <label>
+                    <input type="text" placeholder="Pesquisar produto" />
 
-                <div className="icons">
-                    <a href="">Cadastre-se</a>
-                    <button>Entrar</button>
-
-                </div>
-                <div className="buy">
-
-                    <div className="carrinho">
-                        <img src={minicart} alt="carrinho" />
-
-                        <div className="Ellipse">
-                            <img src={ellipse} alt="Ellipse" />
-                            <div className="dois">
-                                <img src={dois} alt="2" />
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+                </label>
+            </section>
 
             <Navigator />
         </header>
