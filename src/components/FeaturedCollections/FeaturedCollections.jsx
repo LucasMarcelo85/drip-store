@@ -1,4 +1,5 @@
 import "./FeaturedCollections.css";
+
 import { Section } from "./../Section/Section";
 
 export function FeaturedCollections() {

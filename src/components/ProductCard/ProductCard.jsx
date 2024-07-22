@@ -4,7 +4,6 @@ import { useNavigate } from "react-router-dom";
 
 import ProductCardImage from "/IMG/product-images/produc-image-1.jpeg";
 
-
 export function ProductCard() {
 
     const navigate = useNavigate()
