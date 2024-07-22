@@ -1,9 +1,10 @@
-.header {
-    display: flex;
-    /* justify-content: space-around; */
-    height: 20vh;
-    box-sizing: border-box;
-    padding: 2% 1% 0 7%;
+header{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
 
 .inputs {
@@ -49,11 +50,12 @@
 .Ellipse img {
     width: 14px;
     margin-top: 0.8%;
-    right: 16.8%;
+    right: 14.8%;
+    
 }
 
-.dois img {
-    right: 17%;
+.dois img{
+    right: 15%;
     width: 8px;
     margin-top: 0.8%;
 }
@@ -63,14 +65,16 @@
     position: absolute;
     right: 45%;
 }
-.home {
-    display: flex;
-    flex-direction: row;
+.home{
+    white-space: nowrap;
+    border-collapse: collapse;
+    border-spacing: 0;
+    
+   
 }
-.home tr {
-    margin-left: 3%;
-}
-.nav {
+
+.nav{
+
     margin: 0 0 0 4%;
 }
 
