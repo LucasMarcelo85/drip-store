@@ -11,6 +11,11 @@
     color: #c92071;
 }
 
+.home a.active-link {
+    font-weight: 800;
+    text-decoration: underline;
+}
+
 .home a {
     text-decoration: none;
     color: black;

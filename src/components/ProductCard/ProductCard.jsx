@@ -1,10 +1,10 @@
 import "./ProductCard.css";
 
 import { useNavigate } from "react-router-dom";
+import PropTypes from "prop-types";
 
-import ProductCardImage from "/IMG/product-images/produc-image-1.jpeg";
 
-export function ProductCard() {
+export function ProductCard({ produto }) {
 
     const navigate = useNavigate()
 
@@ -16,21 +16,26 @@ export function ProductCard() {
                 <span className="product-discont"> 30% OFF </span>
                 <img
                     className="product-image"
-                    src={ProductCardImage}
+                    src={produto.image}
                     alt="imagem produto"
                 />
             </figure>
 
             <section className="product-container-informations">
-                <h2>Tênis</h2>
+                <h2>{produto.name}</h2>
 
                 <h1>K-Swiss V8 - Masculino</h1>
 
                 <p className="product-container-informations-paragraph">
-                    <span>$200</span>
-                    <span>$100</span>
+                    <span>${produto.price}</span>
+                    <span>${produto.priceDiscount}</span>
                 </p>
             </section>
         </div>
     );
 }
+
+ProductCard.propTypes = {
+    produto: PropTypes.object
+};
+
