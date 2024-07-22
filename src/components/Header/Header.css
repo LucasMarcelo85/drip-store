@@ -1,4 +1,4 @@
-.header{
+.header {
     display: flex;
     /* justify-content: space-around; */
     height: 20vh;
@@ -50,10 +50,9 @@
     width: 14px;
     margin-top: 0.8%;
     right: 16.8%;
-    
 }
 
-.dois img{
+.dois img {
     right: 17%;
     width: 8px;
     margin-top: 0.8%;
@@ -62,26 +61,24 @@
     /* background-color: blue; */
     width: 17px;
     position: absolute;
-    right:45%;
-    
+    right: 45%;
 }
-.home{
+.home {
     display: flex;
     flex-direction: row;
-   
 }
-.home tr{
+.home tr {
     margin-left: 3%;
 }
-.nav{
+.nav {
     margin: 0 0 0 4%;
 }
 
-.home tr a:hover{
-    color: #C92071;
+.home tr a:hover {
+    color: #c92071;
 }
 
-.home a{
+.home a {
     text-decoration: none;
     color: black;
 }
