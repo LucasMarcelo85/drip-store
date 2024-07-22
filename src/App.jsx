@@ -1,10 +1,10 @@
 import "./../public/styles/default.css";
-import { Header } from "./components/Header/Header";
+import { Article } from './components/articloo/article';
 
 export function App() {
     return (
         <>
-            <Header />
+            <Article />
         </>
     );
 }
