@@ -1,11 +1,10 @@
 import "./Header.css";
 import headerlogo from "./../../../public/svgs/logo-header.svg";
 import minicart from "./../../../public/svgs/mini-cart.svg";
-import Ellipse from "./../../../public/svgs/Ellipse 12.svg";
+import ellipse from "./../../../public/svgs/ellipse.svg";
 import dois from "./../../../public/svgs/dois.svg";
-import lupa from "./../../../public/svgs/Search.svg";
+import lupa from "./../../../public/svgs/search.svg";
 import { Navigator } from '../Navigator/Navigator';
-
 
 export function Header() {
     return (
@@ -32,8 +31,7 @@ export function Header() {
                         <img src={minicart} alt="carrinho" />
 
                         <div className="Ellipse">
-                            <img src={Ellipse} alt="Ellipse" />
-
+                            <img src={ellipse} alt="Ellipse" />
                             <div className="dois">
                                 <img src={dois} alt="2" />
                             </div>
