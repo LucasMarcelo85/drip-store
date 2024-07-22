@@ -9,6 +9,7 @@ import 'swiper/css/bundle'
 export function HomePageCarousel() {
     return (
         <div className='gallery-container'>
+            <img className='orgament-svg' src="/public/svgs/Ornament.svg" />
             <Swiper
                 className='swiper-container'
                 modules={[Pagination, Keyboard, Autoplay]}

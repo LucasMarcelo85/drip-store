@@ -12,10 +12,18 @@
 
 .gallery-container {
     background-color: var(--light-gray-3);
-
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 50px;
+}
+
+.orgament-svg {
+    position: absolute;
+
+    right: 80px;
+    top: 80px;
 }
 
 .swiper-container {

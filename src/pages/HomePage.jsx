@@ -10,6 +10,7 @@ export function HomePage() {
         <Layout>
 
             <HomePageCarousel />
+
             <Section title="Coleção em destaque">
                 <FeaturedCollections />
             </Section>
