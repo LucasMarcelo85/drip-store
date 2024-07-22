@@ -1,10 +1,18 @@
 import "./ProductCard.css";
 
+import { useNavigate } from "react-router-dom";
+
 import ProductCardImage from "/IMG/product-images/produc-image-1.jpeg";
 
+
 export function ProductCard() {
+
+    const navigate = useNavigate()
+
+    const handleClick = () => navigate('/produto');
+
     return (
-        <div className="product-card-container">
+        <div className="product-card-container" onClick={handleClick}>
             <figure className="figure-container">
                 <span className="product-discont"> 30% OFF </span>
                 <img

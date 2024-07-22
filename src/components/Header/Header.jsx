@@ -30,12 +30,8 @@ export function Header() {
                     <div className="carrinho">
                         <img src={minicart} alt="carrinho" />
 
-
-
-
                         <div className="Ellipse">
                             <img src={Ellipse} alt="Ellipse" />
-
 
                             <div className="dois">
                                 <img src={dois} alt="2" />
