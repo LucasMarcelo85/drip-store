@@ -1,15 +1,18 @@
 import "./ProductListing.css";
 
-import { Section } from "../Section/Section";
-import { ProductCard } from "./../ProductCard/ProductCard";
+import PropTypes from "prop-types";
 
-export function ProductListening() {
+import { Section } from "../Section/Section";
+
+export function ProductListening({ children }) {
     return (
         <Section>
-            <ProductCard />
-            <ProductCard />
-            <ProductCard />
-            <ProductCard />
+            {children}
         </Section>
     );
 }
+
+ProductListening.propTypes = {
+    children: PropTypes.node,
+};
+

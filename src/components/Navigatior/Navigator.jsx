@@ -6,10 +6,10 @@ export function Navigator() {
     return (
         <nav className="nav">
             <ul className="home">
-                <li><NavLink to="/">Home</NavLink></li>
-                <li><NavLink to="/produtos">Produtos</NavLink></li>
-                <li><NavLink to="/">Categorias</NavLink></li>
-                <li><NavLink to="/">Meus Pedidos</NavLink></li>
+                <li><NavLink to="/" className="link" activeClassName="active-link">Home</NavLink></li>
+                <li><NavLink to="/produtos" activeClassName="active-link">Produtos</NavLink></li>
+                <li><NavLink to="/" activeClassName="active-link">Categorias</NavLink></li>
+                <li><NavLink to="/" activeClassName="active-link">Meus Pedidos</NavLink></li>
             </ul>
         </nav>
     );
