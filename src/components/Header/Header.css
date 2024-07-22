@@ -63,3 +63,22 @@
     position: absolute;
     right: 45%;
 }
+.home {
+    display: flex;
+    flex-direction: row;
+}
+.home tr {
+    margin-left: 3%;
+}
+.nav {
+    margin: 0 0 0 4%;
+}
+
+.home tr a:hover {
+    color: #c92071;
+}
+
+.home a {
+    text-decoration: none;
+    color: black;
+}

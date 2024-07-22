@@ -41,6 +41,7 @@
 .product-container-informations > h1 {
     color: var(--dark-gray-2);
     font-weight: 400;
+    font-size: 24px;
 }
 
 .product-container-informations-paragraph {

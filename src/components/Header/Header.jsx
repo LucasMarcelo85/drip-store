@@ -4,7 +4,8 @@ import minicart from "./../../../public/svgs/mini-cart.svg";
 import Ellipse from "./../../../public/svgs/Ellipse 12.svg";
 import dois from "./../../../public/svgs/dois.svg";
 import lupa from "./../../../public/svgs/Search.svg";
-import { Navigator } from './../Navigatior/Navigator';
+import { Navigator } from '../Navigator/Navigator';
+
 
 export function Header() {
     return (
@@ -45,3 +46,5 @@ export function Header() {
         </header>
     );
 }
+
+
