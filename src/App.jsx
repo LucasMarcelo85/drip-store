@@ -1,10 +1,10 @@
 import "./../public/styles/default.css";
-import { AppRoutes } from "./routes/AppRoutes";
+import { Header } from "./components/Header/Header";
 
 export function App() {
     return (
         <>
-            <AppRoutes />
+            <Header />
         </>
     );
 }
