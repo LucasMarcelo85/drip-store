@@ -4,6 +4,7 @@ import { ProductCard } from "./../components/ProductCard/ProductCard";
 import { FeaturedCollections } from "./../components/FeaturedCollections/FeaturedCollections";
 import { Layout } from './../components/Layout/Layout';
 import { HomePageCarousel } from "../components/HomePageCarousel/HomePageCarousel";
+import { Article } from './../components/articloo/article';
 
 export function HomePage() {
 
@@ -79,6 +80,8 @@ export function HomePage() {
                     {produtos.map((produto, key) => <ProductCard key={key} produto={produto} />)}
                 </ProductListening>
             </Section>
+
+            <Article />
         </Layout>
     );
 }
