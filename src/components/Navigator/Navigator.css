@@ -1,10 +1,11 @@
+.nav {
+    width: 90%;
+}
+
 .home {
     display: flex;
-    flex-direction: row;
     gap: 2rem;
-}
-.nav {
-    margin: 0 0 0 4%;
+    padding: 0;
 }
 
 .home a:hover {

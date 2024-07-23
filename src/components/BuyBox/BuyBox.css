@@ -8,6 +8,7 @@
 
 .buy-box-container > .buy-box-header > h1 {
     font-size: 32px;
+    font-weight: 800;
     color: var(--dark-gray);
 }
 
