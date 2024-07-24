@@ -4,6 +4,7 @@
 }
 
 .swiper-pagination-bullet {
+    margin-bottom: 80px !important;
     transition: all 0.4s ease;
 }
 .swiper-pagination-bullet-active {
@@ -17,12 +18,11 @@
     align-items: center;
     justify-content: center;
     margin-bottom: 50px;
-    padding: 100px;
+    padding: 50px;
 }
 
 .orgament-svg {
     position: absolute;
-
     right: 80px;
     top: 80px;
 }
@@ -70,6 +70,7 @@
     padding: 10px 50px;
     border: none;
     border-radius: 7px;
+    color: white;
     margin-top: 40px;
     background-color: var(--primary);
 }
