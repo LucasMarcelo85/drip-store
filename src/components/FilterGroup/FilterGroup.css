@@ -1,29 +1,8 @@
 aside {
-    width: 308px;
+    width: 332px;
     height: 720px;
     background-color: white;
     color: var(--dark-gray-2);
     flex-direction: column;
     justify-content: space-around;
-
-    /*padding: 30px 0px 0px 0px;
-    gap: 20px;
-    border-radius: 4px 0px 0px 0px;
-    */
 }
-
-/* .side {
-    display: flex;
-    flex-direction: column;
-} */
-
-/* .filtroprods {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
-
-.markas {
-    display: flex;
-    flex-direction: column;
-} */
