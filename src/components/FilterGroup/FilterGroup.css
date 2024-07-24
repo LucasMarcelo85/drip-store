@@ -1,9 +1,8 @@
 aside {
     width: 308px;
     height: 720px;
-    background-color: rgb(108, 24, 216);
-    color: #ffffff;
-    display: flex;
+    background-color: white;
+    color: var(--dark-gray-2);
     flex-direction: column;
     justify-content: space-around;
 

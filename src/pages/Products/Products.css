@@ -1,0 +1,13 @@
+.products-container {
+    display: flex;
+    padding: 0 50px;
+    align-items: start;
+    justify-content: start;
+    margin-top: 40px;
+}
+
+.products-container > .filter-order-container {
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+}
