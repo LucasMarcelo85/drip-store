@@ -7,7 +7,7 @@ import "./Footer.css";
 
 export function Footer() {
     return (
-        <footer>
+        <footer className="footer">
             {/* div geral */}
             <div className="geral">
                 <div className="container">
