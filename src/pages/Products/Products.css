@@ -3,9 +3,8 @@
     padding: 0 60px;
     margin-top: 40px;
 }
-
 .products-container > .filter-order-container {
     display: flex;
-    gap: 50px;
+    gap: 20px;
     flex-direction: column;
 }

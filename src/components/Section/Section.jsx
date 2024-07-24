@@ -13,10 +13,13 @@ export function Section({ children, title = "", titleAlign = "left", link = '' }
             className="section-container"
             style={{ textAlign: titleAlign }}
         >
-            <span>
-                {title == "" ? null : <h1>{title}</h1>}
-                {link == "" ? null : <a onClick={handleClick}>{link}</a>}
-            </span>
+            {title != "" || link != "" && 
+                <span>
+                    {title == "" ? null : <h1>{title}</h1>}
+                    {link == "" ? null : <a onClick={handleClick}>{link}</a>}
+                </span>
+            }   
+
             <div>{children}</div>
         </section>
     );
