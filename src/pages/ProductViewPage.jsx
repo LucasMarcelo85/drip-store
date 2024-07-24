@@ -4,6 +4,7 @@ import { ProductListening } from "./../components/ProductListing/ProductListing"
 import { ProductCard } from "./../components/ProductCard/ProductCard";
 import { Layout } from "../components/Layout/Layout";
 import { PageViewCarousel } from './../components/PageViewCarousel/PageViewCarousel';
+import { ProductDetails } from './../components/ProductDetails/ProductDetails';
 
 export function ProductViewPage() {
 
@@ -41,8 +42,7 @@ export function ProductViewPage() {
         <Layout>
 
             <Section>
-                <PageViewCarousel />
-                <BuyBox />
+                <ProductDetails/>
             </Section>
 
             <Section title="Produtos Relacionados">

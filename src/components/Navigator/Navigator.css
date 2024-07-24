@@ -8,16 +8,19 @@
     padding: 0;
 }
 
+.home a {
+    text-decoration: none;
+    font-weight: normal;
+    color: var(--dark-gray-2);
+    transition: all 0.3s ease;
+}
+
 .home a:hover {
     color: #c92071;
 }
 
-.home a.active-link {
+.home a.active {
     font-weight: 800;
     text-decoration: underline;
-}
-
-.home a {
-    text-decoration: none;
-    color: black;
+    color: var(--primary);
 }

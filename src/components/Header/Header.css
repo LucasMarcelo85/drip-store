@@ -5,7 +5,6 @@
     background-color: white;
     z-index: 2;
     gap: 50px;
-    position: fixed;
     align-items: center;
     flex-direction: column;
     justify-content: center;
@@ -49,6 +48,7 @@
     display: flex;
     align-items: center;
     text-wrap: nowrap;
+    flex-wrap: wrap;
     gap: 20px;
 }
 
@@ -67,6 +67,18 @@
     padding: 10px 30px;
 }
 
-.navigator-container {
-    background-color: pink;
+.cart-img {
+    position: relative;
+}
+
+.cart-img::before {
+    content: "2";
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    padding: 5px;
+    color: white;
+    top: -10px;
+    right: -10px;
+    background-color: var(--primary);
 }
