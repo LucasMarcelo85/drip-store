@@ -1,8 +1,6 @@
 .products-container {
     display: flex;
-    padding: 0 50px;
-    align-items: start;
-    justify-content: start;
+    padding: 0 60px;
     margin-top: 40px;
 }
 

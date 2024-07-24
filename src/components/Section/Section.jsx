@@ -8,7 +8,7 @@ export function Section({ children, title = "", titleAlign = "left" }) {
             className="section-container"
             style={{ textAlign: titleAlign }}
         >
-            <h1>{title}</h1>
+            {title == "" ? null : <h1>{title}</h1>}
             <div>{children}</div>
         </section>
     );
