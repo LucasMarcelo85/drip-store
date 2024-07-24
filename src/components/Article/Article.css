@@ -12,7 +12,6 @@ article {
     display: flex;
     align-items: center;
     justify-content: center;
-
     background-image: linear-gradient(to bottom, #4200ff40, 10%, #ffffff);
     border-radius: 100%;
     width: 466px;

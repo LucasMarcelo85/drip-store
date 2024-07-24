@@ -76,7 +76,7 @@ export function HomePage() {
                 <FeaturedCollections />
             </Section>
 
-            <Section title="Produtos em alta">
+            <Section title="Produtos em alta" link="ver todos">
                 <ProductListening>
                     {produtos.map((produto, key) => <ProductCard key={key} produto={produto} />)}
                 </ProductListening>

@@ -43,7 +43,7 @@ export function ProductViewPage() {
                 <ProductDetails/>
             </Section>
 
-            <Section title="Produtos Relacionados">
+            <Section title="Produtos Relacionados" link="ver todos">
                 <ProductListening>
                     {produtos.map((produto, key) => <ProductCard key={key} produto={produto} />)}
                 </ProductListening>
