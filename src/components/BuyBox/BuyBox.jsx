@@ -5,7 +5,7 @@ import { ProductOptions } from "./../ProductOptions/ProductOptions";
 import StarActive from "/svgs/star-active.svg";
 import StarDesactive from "/svgs/star-desactive.svg";
 import StarWhite from "/svgs/star-white.svg";
-
+    
 export function BuyBox() {
 
     return (

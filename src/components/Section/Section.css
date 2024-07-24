@@ -12,6 +12,7 @@
 .section-container > h1 {
     width: 100%;
     font-size: 24px;
+    font-weight: 700;
     text-align: left;
     color: var(--dark-gray-2);
 }

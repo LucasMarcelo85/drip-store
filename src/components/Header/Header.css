@@ -71,14 +71,5 @@
     position: relative;
 }
 
-.cart-img::before {
-    content: "2";
-    position: absolute;
-    width: 5px;
-    height: 5px;
-    padding: 5px;
-    color: white;
-    top: -10px;
-    right: -10px;
-    background-color: var(--primary);
+@media screen and (max-width: 768px) {
 }
