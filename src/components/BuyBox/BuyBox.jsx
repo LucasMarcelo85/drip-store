@@ -5,13 +5,8 @@ import { ProductOptions } from "./../ProductOptions/ProductOptions";
 import StarActive from "/svgs/star-active.svg";
 import StarDesactive from "/svgs/star-desactive.svg";
 import StarWhite from "/svgs/star-white.svg";
-import { useState } from "react";
 
 export function BuyBox() {
-
-    const options_cores = ["#6feeff", "#ff6969", "#5e5e5e", "#6d70b7"];
-
-    const [backgroudColor, setBackgroundColor] = useState("#6feeff");
 
     return (
         <div className="buy-box-container">
