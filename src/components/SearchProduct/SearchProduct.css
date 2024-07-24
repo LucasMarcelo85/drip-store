@@ -1,0 +1,12 @@
+.search-product-container {
+    color: var(--dark-gray-2);
+    width: 332px;
+    height: 60px;
+    border-radius: 4px;
+}
+
+.search-product-container option span {
+    font-weight: 700;
+
+    background-color: pink;
+}
