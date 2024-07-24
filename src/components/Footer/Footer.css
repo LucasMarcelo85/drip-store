@@ -1,4 +1,4 @@
-footer {
+.footer {
     width: 100vw;
     height: 454px;
     padding-top: 85px;
@@ -18,7 +18,7 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    gap: 10rem;
+    gap: 8.5rem;
 }
 
 .dig-logo {
