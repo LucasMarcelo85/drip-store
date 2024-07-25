@@ -2,7 +2,7 @@ import "./Header.css";
 
 import headerlogo from "./../../../public/svgs/logo-header.svg";
 import minicart from "./../../../public/svgs/mini-cart.svg";
-import lupa from "./../../../public/svgs/search.svg";
+import lupa from "./../../../public/svgs/Search.svg";
 
 import { Navigator } from '../Navigator/Navigator';
 
