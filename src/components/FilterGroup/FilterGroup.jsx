@@ -20,7 +20,7 @@ export function FilterGroup() {
                             </div>
 
                             <div className="ciaga">
-                                <input type="checkbox" id="calenciga" value="CALENCIAGA" />
+                                <input type="checkbox" id="calenciaga" value="CALENCIAGA" />
                                 <label htmlFor="calenciaga">Calenciaga</label>
                             </div>
 
@@ -38,7 +38,6 @@ export function FilterGroup() {
                                 <input type="checkbox" id="puma" value="PUMA" />
                                 <label htmlFor="puma">Puma</label>
                             </div>
-
                         </form>
                     </div>
 

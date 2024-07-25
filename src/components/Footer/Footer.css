@@ -184,3 +184,14 @@
     height: 1px;
     margin-top: 5px;
 }
+
+/* @media (max-width: 425px) {
+    .footer {
+        box-sizing: border-box;
+        background-color: brown;
+        display: flex;
+        flex-direction: column;
+        font-size: 100%;
+        vertical-align: baseline;
+    }
+} */
