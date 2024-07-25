@@ -1,0 +1,21 @@
+.roupas ul{
+    display: flex;
+    flex-direction: row;
+    line-height: 4em;
+}
+.roupas{
+    text-align: center;
+}
+.roupas li{
+    margin: 0 3em 0 4% ;
+}
+
+.roupas li a{
+    text-decoration: none;
+    color: #474747;
+    
+}
+.roupas li a:hover{
+    color: #C92071;
+    
+}
