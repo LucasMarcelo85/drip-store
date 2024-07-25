@@ -49,6 +49,10 @@
     justify-content: space-between;
 }
 
+.dig-logo .redesLogo > img {
+    cursor: pointer;
+}
+
 /* .footerLogo {
     width: 33px;
     height: 33px;
