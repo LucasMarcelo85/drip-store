@@ -28,6 +28,7 @@
     background-color: var(--primary);
     color: white;
     border: 1px solid transparent;
+    transition: all 0.4s ease;
 }
 
 .product-options-container > div:nth-child(4) span {
@@ -37,6 +38,8 @@
     border-radius: 100%;
     border: 2px solid transparent;
     outline: 2px solid transparent;
+
+    transition: all 0.4s ease;
 }
 
 .product-options-container > div:nth-child(4) span:nth-child(1) {
