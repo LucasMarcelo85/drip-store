@@ -41,8 +41,7 @@ export function BuyBox() {
 
                 <h3>Descrição do produto</h3>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Non, quibusdam?
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
                 </p>
             </main>
 
