@@ -7,6 +7,8 @@ import { ProductDetails } from "../../components/ProductDetails/ProductDetails";
 import "./ProductViewPage.css";
 
 export function ProductViewPage() {
+
+
     const produtos = [
         {
             name: "Nome do produto",
@@ -37,6 +39,11 @@ export function ProductViewPage() {
         },
     ];
 
+    const link = {
+        text: "ver todos",
+        href: "/produtos"
+    }
+
     return (
         <Layout>
             <div className="product-view-page-container">
@@ -48,7 +55,7 @@ export function ProductViewPage() {
                     <ProductDetails />
                 </Section>
 
-                <Section title="Produtos Relacionados" link="ver todos">
+                <Section title="Produtos Relacionados" link={link}>
                     <ProductListening>
                         {produtos.map((produto, key) => (
                             <ProductCard key={key} produto={produto} />

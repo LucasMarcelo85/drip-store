@@ -1,3 +1,7 @@
 export function NotFoundPage() {
-    return <h1>Pagina não encontrada</h1>;
+    return (
+        <section>
+            <h1> Página não encontrada </h1>
+        </section>
+    );
 }

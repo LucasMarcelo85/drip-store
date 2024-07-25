@@ -68,6 +68,11 @@ export function HomePage() {
         },
     ]
 
+    const link = {
+        text: "ver todos",
+        href: '/produtos'
+    }
+
     return (
         <Layout>
 
@@ -81,7 +86,7 @@ export function HomePage() {
                 <FeaturedCollectionsIcons/>
             </Section>
 
-            <Section title="Produtos em alta" link="ver todos">
+            <Section title="Produtos em alta" link={link}>
                 <ProductListening>
                     {produtos.map((produto, key) => <ProductCard key={key} produto={produto} />)}
                 </ProductListening>
