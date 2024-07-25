@@ -1,15 +1,27 @@
-import './PageViewCarousel.css';
-
+import { useState, useRef } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Keyboard, Autoplay } from 'swiper/modules';
 
 import 'swiper/css';
-import 'swiper/css/bundle'
+import 'swiper/css/bundle';
+import './PageViewCarousel.css';
 
 export function PageViewCarousel() {
+    const [activeIndex, setActiveIndex] = useState(0);
+    const swiperRef = useRef(null);
+
+    const handleSlideChange = (swiper) => {
+        setActiveIndex(swiper.activeIndex);
+    };
+
+    const handleThumbnailClick = (index) => {
+        swiperRef.current.swiper.slideTo(index);
+    };
+
     return (
         <div className='product-view-container'>
             <Swiper
+                ref={swiperRef}
                 className='product-view-swiper-container'
                 modules={[Navigation, Pagination, Keyboard, Autoplay]}
                 keyboard={{ clickable: true }}
@@ -19,18 +31,25 @@ export function PageViewCarousel() {
                     delay: 2500
                 }}
                 slidesPerView={1}
+                onSlideChange={handleSlideChange}
+                initialSlide={activeIndex}
             >
-                <SwiperSlide>
+                <SwiperSlide className='swiper-slide'>
                     <figure>
                         <img src="/public/IMG/White-Sneaker.png" />
                     </figure>
                 </SwiperSlide>
-                <SwiperSlide>
+                <SwiperSlide className='swiper-slide'>
                     <figure>
                         <img src="/public/IMG/White-Sneaker.png" />
                     </figure>
                 </SwiperSlide>
-                <SwiperSlide>
+                <SwiperSlide className='swiper-slide'>
+                    <figure>
+                        <img src="/public/IMG/White-Sneaker.png" />
+                    </figure>
+                </SwiperSlide>
+                <SwiperSlide className='swiper-slide'>
                     <figure>
                         <img src="/public/IMG/White-Sneaker.png" />
                     </figure>
@@ -38,20 +57,16 @@ export function PageViewCarousel() {
             </Swiper>
 
             <div className='thumb-images-container'>
-                <figure className='active'  >
-                    <img src="/public/IMG/White-Sneaker.png" />
-                </figure>
-                <figure>
-                    <img src="/public/IMG/White-Sneaker.png" />
-                </figure>
-                <figure>
-                    <img src="/public/IMG/White-Sneaker.png" />
-                </figure>
-                <figure>
-                    <img src="/public/IMG/White-Sneaker.png" />
-                </figure>
+                {[0, 1, 2, 3].map((index) => (
+                    <figure 
+                        key={index} 
+                        className={activeIndex === index ? 'active' : ''}
+                        onClick={() => handleThumbnailClick(index)}
+                    >
+                        <img src="/public/IMG/White-Sneaker.png" />
+                    </figure>
+                ))}
             </div>
         </div>
-
-    )
+    );
 }
