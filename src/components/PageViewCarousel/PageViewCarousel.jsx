@@ -34,26 +34,13 @@ export function PageViewCarousel() {
                 onSlideChange={handleSlideChange}
                 initialSlide={activeIndex}
             >
-                <SwiperSlide className='swiper-slide'>
-                    <figure>
-                        <img src="/public/IMG/White-Sneaker.png" />
-                    </figure>
-                </SwiperSlide>
-                <SwiperSlide className='swiper-slide'>
-                    <figure>
-                        <img src="/public/IMG/White-Sneaker.png" />
-                    </figure>
-                </SwiperSlide>
-                <SwiperSlide className='swiper-slide'>
-                    <figure>
-                        <img src="/public/IMG/White-Sneaker.png" />
-                    </figure>
-                </SwiperSlide>
-                <SwiperSlide className='swiper-slide'>
-                    <figure>
-                        <img src="/public/IMG/White-Sneaker.png" />
-                    </figure>
-                </SwiperSlide>
+                {[0, 1, 2, 3].map((index) => (
+                    <SwiperSlide key={index} className='swiper-slide'>
+                        <figure key={activeIndex}>
+                            <img src="/public/IMG/White-Sneaker.png" />
+                        </figure>
+                    </SwiperSlide>
+                ))}
             </Swiper>
 
             <div className='thumb-images-container'>
