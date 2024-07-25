@@ -41,13 +41,21 @@
     align-items: center;
 }
 
-.section-container > h1 {
+.section-container span h1 {
     justify-self: center;
     width: 100%;
     font-size: 24px;
     font-weight: 700;
     text-align: left;
     color: var(--dark-gray-2);
+}
+
+.section-container span a {
+    font-weight: 400;
+
+    font-size: 18px;
+    text-wrap: nowrap;
+    color: var(--primary) !important;
 }
 
 .section-container > div {
