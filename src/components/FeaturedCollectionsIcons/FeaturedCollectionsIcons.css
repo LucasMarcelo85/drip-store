@@ -12,6 +12,7 @@
 .roupas li a {
     text-decoration: none;
     color: #474747;
+    transition: all 0.3s ease;
 }
 .roupas li a:hover {
     color: #c92071;
