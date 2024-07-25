@@ -67,6 +67,8 @@ export function Products() {
     ];
     return (
         <Layout>
+
+            <h2 className="results-title"> <span>Resultados para “Tênis” -</span> 389 produtos</h2>
             <div className="products-container">
                 <section className="filter-order-container">
                     <SearchProduct />
