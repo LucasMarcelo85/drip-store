@@ -68,22 +68,32 @@ do Ceará em parceria com o Instituto Euvaldo Lovaldi (IEL) e a ADECE
 │    │    │   ├── product-thumb-3.jpeg
 │    │    │   ├── product-thumb-4.jpeg
 │    │    │   ├── product-thumb-5.jpeg
+│    │    │
+│    │    ├── White-Sneaker.png
+│    │
 │    │
 │    ├── styles/
 │    │    default.css
 │    │
 │    ├── svgs/
-│    │    ├── arrow-left.svg
 │    │    ├── arrow-right.svg
+│    │    ├── blusaE.svg
+│    │    ├── calça.svg
+│    │    ├── dois.svg
+│    │    ├── ellipse.svg
 │    │    ├── facebook.svg
+│    │    ├── fone.svg
 │    │    ├── instagram.svg
 │    │    ├── logo-footer.svg
 │    │    ├── logo-header.svg
 │    │    ├── mini-cart.svg
+│    │    ├── Ornament.svg
+│    │    ├── Search.svg
 │    │    ├── star-active.svg
 │    │    ├── star-desactive.svg
 │    │    ├── star-icon.svg
 │    │    ├── star-white.svg
+│    │    ├── teniss.svg
 │    │    ├── twitter.svg
 │
 ├── src/
@@ -98,6 +108,10 @@ do Ceará em parceria com o Instituto Euvaldo Lovaldi (IEL) e a ADECE
 │    │    │   ├── FeaturedCollections.css
 │    │    │   ├── FeaturedCollections.jsx
 │    │    │
+│    │    ├── FeaturedCollectionsIcons/
+│    │    │   ├── FeaturedCollectionsIcons.css
+│    │    │   ├── FeaturedCollectionsIcons.jsx
+│    │    │
 │    │    ├── FilterGroup/
 │    │    │   ├── FilterGroup.css
 │    │    │   ├── FilterGroup.jsx
@@ -109,6 +123,10 @@ do Ceará em parceria com o Instituto Euvaldo Lovaldi (IEL) e a ADECE
 │    │    ├── Header/
 │    │    │   ├── Header.css
 │    │    │   ├── Header.jsx
+│    │    │
+│    │    ├── HomePageCarousel/
+│    │    │   ├── HomePageCarousel.css
+│    │    │   ├── HomePageCarousel.jsx
 │    │    │
 │    │    ├── ProductCard/
 │    │    │   ├── ProductCard.css
@@ -131,10 +149,17 @@ do Ceará em parceria com o Instituto Euvaldo Lovaldi (IEL) e a ADECE
 │    │    │   ├── Section.jsx
 │    │
 │    ├── pages/
+│    │
+│    │    ├── Products/
+│    │    │   ├── Products.css
+│    │    │    ├── Products.jsx
+│    │    │
+│    │    ├── ProductViewPage/
+│    │    │   ├── ProductViewPage.css
+│    │    │   ├── ProductViewPage.jsx
+│    │    │
 │    │    ├── HomePage.jsx
-│    │    ├── NotFound.jsx
-│    │    ├── ProductListingPage.jsx
-│    │    ├── ProductViewPage.jsx
+│    │    ├── NotFoundPage.jsx
 │    │
 │    ├── routes/
 │    │    ├── AppRoutes.jsx
