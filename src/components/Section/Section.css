@@ -46,13 +46,12 @@
     width: 100%;
     font-size: 24px;
     font-weight: 700;
-    text-align: left;
     color: var(--dark-gray-2);
 }
 
 .section-container span a {
     font-weight: 400;
-
+    cursor: pointer;
     font-size: 18px;
     text-wrap: nowrap;
     color: var(--primary) !important;

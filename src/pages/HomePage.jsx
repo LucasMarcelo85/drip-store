@@ -76,7 +76,11 @@ export function HomePage() {
             <Section title="Coleções em destaque">
                 <FeaturedCollections />
             </Section>
-            <Section> <FeaturedCollectionsIcons/></Section>
+
+            <Section title="Coleções em destaque" titleAlign="center"> 
+                <FeaturedCollectionsIcons/>
+            </Section>
+
             <Section title="Produtos em alta" link="ver todos">
                 <ProductListening>
                     {produtos.map((produto, key) => <ProductCard key={key} produto={produto} />)}
