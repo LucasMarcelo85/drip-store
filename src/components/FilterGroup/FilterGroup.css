@@ -1,13 +1,14 @@
 aside {
-    width: 332px;
+    width: 308px;
     height: 720px;
     padding: 30px;
     gap: 20px;
     border-radius: 4px;
     background-color: white;
+    /* color: #474747; */
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .dcima {
@@ -18,7 +19,6 @@ aside {
     line-height: 24px;
     letter-spacing: 0.75px;
     text-align: left;
-    color: #474747;
 }
 
 .linha {
@@ -35,7 +35,6 @@ aside {
     gap: 10px;
     display: flex;
     flex-direction: column;
-    align-items: start;
     color: #474747;
 }
 
@@ -54,37 +53,67 @@ aside {
     font-weight: 500;
     line-height: 22px;
     letter-spacing: 0.25px;
-    text-align: left;
+    text-align: center;
+    cursor: pointer;
 }
 
-.markas form .addi {
-    width: 89px;
+.markas input {
+    display: none;
+}
+
+.markas input[type="checkbox"] + label::before {
+    content: "";
+    width: 22px;
     height: 22px;
-    gap: 10px;
+    border-radius: 2px;
+    display: inline-block;
+    vertical-align: middle;
+    background-color: #ffffff;
+    border: 1px solid #666666;
+    margin-right: 10px;
 }
 
-.markas form .ciaga {
+.markas input[type="checkbox"]:checked + label::before {
+    background-image: url(check-solid2.svg);
+    background-position: center;
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    border-radius: 2px;
+    background-color: #c92071;
+    border: 1px solid #c92071;
+}
+
+.ciaga {
     width: 109px;
     height: 22px;
     gap: 10px;
+    display: flex;
+    align-items: start;
 }
 
-.markas form .wiss {
+.wiss {
     width: 88px;
     height: 22px;
     gap: 10px;
+    display: flex;
+    align-items: start;
 }
 
-.markas form .like {
+.like {
     width: 63px;
     height: 22px;
     gap: 10px;
+    display: flex;
+    align-items: start;
 }
 
-.markas form .juma {
+.juma {
     width: 71px;
     height: 22px;
     gap: 10px;
+    display: flex;
+    align-items: start;
 }
 /* fim do bloco do 'Markas' */
 
@@ -114,9 +143,62 @@ aside {
     line-height: 22px;
     letter-spacing: 0.25px;
     text-align: left;
+    cursor: pointer;
+}
+
+.catingoria input {
+    display: none;
+}
+
+.catingoria input[type="checkbox"] + label::before {
+    content: "";
+    width: 22px;
+    height: 22px;
+    border-radius: 2px;
+    display: inline-block;
+    vertical-align: middle;
+    background-color: #ffffff;
+    border: 1px solid #666666;
+    margin-right: 10px;
+}
+
+.catingoria input[type="checkbox"]:checked + label::before {
+    background-image: url(check-solid2.svg);
+    background-position: center;
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    border-radius: 2px;
+    background-color: #c92071;
+    border: 1px solid #c92071;
+}
+
+.sportez {
+    width: 136px;
+    height: 22px;
+    gap: 10px;
+}
+
+.casa {
+    width: 79px;
+    height: 22px;
+    gap: 10px;
+}
+
+.util {
+    width: 91px;
+    height: 22px;
+    gap: 10px;
+}
+
+.racha {
+    width: 84px;
+    height: 22px;
+    gap: 10px;
 }
 /* fim do bloco catingoria */
 
+/* início do bloco gênero */
 .gen {
     width: 103px;
     height: 118px;
@@ -125,6 +207,53 @@ aside {
     flex-direction: column;
 }
 
+.gen h4 {
+    width: 54px;
+    height: 22px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.75px;
+    text-align: left;
+}
+
+.gen form label {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0.25px;
+    text-align: left;
+}
+
+.gen input {
+    display: none;
+}
+
+.gen input[type="checkbox"] + label::before {
+    content: "";
+    width: 22px;
+    height: 22px;
+    border-radius: 2px;
+    display: inline-block;
+    vertical-align: middle;
+    background-color: #ffffff;
+    border: 1px solid #666666;
+    margin-right: 10px;
+}
+
+.gen input[type="checkbox"]:checked + label::before {
+    background-image: url(check-solid2.svg);
+    background-position: center;
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    border-radius: 2px;
+    background-color: #c92071;
+    border: 1px solid #c92071;
+}
+/* fim do bloco gênero */
+
+/* início do bloco estado */
 .stado {
     width: 76px;
     height: 86px;
@@ -132,3 +261,32 @@ aside {
     display: flex;
     flex-direction: column;
 }
+
+.stado h4 {
+    width: 52px;
+    height: 22px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.75px;
+    text-align: left;
+}
+
+.stado form label {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0.25px;
+    text-align: left;
+}
+
+/* fim do bloco estado */
+
+/* .caixa {
+    width: 22px;
+height: 22px;
+border-radius: 2px;
+border: 1px;
+background-color: white;
+border: 1px solid #666666
+} */
