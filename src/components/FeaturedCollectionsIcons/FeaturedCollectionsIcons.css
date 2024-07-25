@@ -1,21 +1,18 @@
-.roupas ul{
+.roupas ul {
     display: flex;
     flex-direction: row;
     line-height: 4em;
+    gap: 5rem;
 }
-.roupas{
+.roupas {
+    margin-top: 30px;
     text-align: center;
 }
-.roupas li{
-    margin: 0 3em 0 4% ;
-}
 
-.roupas li a{
+.roupas li a {
     text-decoration: none;
     color: #474747;
-    
 }
-.roupas li a:hover{
-    color: #C92071;
-    
+.roupas li a:hover {
+    color: #c92071;
 }

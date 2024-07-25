@@ -1,8 +1,10 @@
-import { Section } from "./../components/Section/Section";
-import { ProductListening } from "./../components/ProductListing/ProductListing";
-import { ProductCard } from "./../components/ProductCard/ProductCard";
-import { Layout } from "../components/Layout/Layout";
-import { ProductDetails } from './../components/ProductDetails/ProductDetails';
+import { Section } from "../../components/Section/Section";
+import { ProductListening } from "../../components/ProductListing/ProductListing";
+import { ProductCard } from "../../components/ProductCard/ProductCard";
+import { Layout } from "../../components/Layout/Layout";
+import { ProductDetails } from '../../components/ProductDetails/ProductDetails';
+
+import './ProductViewPage.css';
 
 export function ProductViewPage() {
 
@@ -39,15 +41,18 @@ export function ProductViewPage() {
     return (
         <Layout>
 
-            <Section>
-                <ProductDetails/>
-            </Section>
+            <div className="product-view-page-container">
 
-            <Section title="Produtos Relacionados" link="ver todos">
-                <ProductListening>
-                    {produtos.map((produto, key) => <ProductCard key={key} produto={produto} />)}
-                </ProductListening>
-            </Section>
+                <Section>
+                    <ProductDetails/>
+                </Section>
+
+                <Section title="Produtos Relacionados" link="ver todos">
+                    <ProductListening>
+                        {produtos.map((produto, key) => <ProductCard key={key} produto={produto} />)}
+                    </ProductListening>
+                </Section>
+            </div>
         </Layout>
     );
 }
