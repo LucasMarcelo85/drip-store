@@ -33,7 +33,7 @@ A Drip-Store é um E-commerce feito em React com JavaScript, trata-se do projeto
     <img src="https://techstack-generator.vercel.app/prettier-icon.svg" alt="icon" width="100" height="100" />
     <img src="https://techstack-generator.vercel.app/react-icon.svg" alt="icon" width="100" height="100" />
     <img src="https://techstack-generator.vercel.app/js-icon.svg" alt="icon" width="100" height="100" />
-    <img src="https://techstack-generator.vercel.app/github-icon.svg" alt="icon" width="100" height="100" />
+    <img src="https://github.com/user-attachments/assets/729c9d30-f1de-45b0-85f2-bb8790282884" alt="icon" width="100" height="100" /> 
 </div>
 
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Objects/Card%20Index%20Dividers.webp" alt="Card Index Dividers" width="25" height="25" /> Organização de Pastas
