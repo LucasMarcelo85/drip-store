@@ -1,8 +1,8 @@
 import "./FeaturedCollectionsIcons.css";
-import teniss from "./../../../public/svgs/teniss.svg";
-import fone from "./../../../public/svgs/fone.svg";
-import calça from "./../../../public/svgs/calça.svg";
-import blusaE from "./../../../public/svgs/blusaE.svg";
+import teniss from "/svgs/teniss.svg";
+import fone from "/svgs/fone.svg";
+import calça from "/svgs/calça.svg";
+import blusaE from "/svgs/blusaE.svg";
 
 export function FeaturedCollectionsIcons() {
     return (

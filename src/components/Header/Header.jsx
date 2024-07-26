@@ -1,9 +1,9 @@
 import "./Header.css";
 
-import headerlogo from "./../../../public/svgs/logo-header.svg";
-import minicart from "./../../../public/svgs/mini-cart.svg";
-import lupa from "./../../../public/svgs/Search.svg";
-import ellipse from "./../../../public/svgs/ellipse.svg";
+import headerlogo from "/svgs/logo-header.svg";
+import minicart from "/svgs/mini-cart.svg";
+import lupa from "/svgs/Search.svg";
+import ellipse from "/svgs/ellipse.svg";
 
 import { Navigator } from '../Navigator/Navigator';
 

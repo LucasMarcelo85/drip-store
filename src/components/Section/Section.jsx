@@ -1,6 +1,6 @@
 import "./Section.css";
 
-import arrowRight from '../../../public/svgs/arrow-right.svg';
+import arrowRight from '/svgs/arrow-right.svg';
 
 import PropTypes from "prop-types";
 

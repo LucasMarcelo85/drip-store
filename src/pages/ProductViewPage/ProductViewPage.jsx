@@ -12,28 +12,28 @@ export function ProductViewPage() {
     const produtos = [
         {
             name: "Nome do produto",
-            image: "/public/IMG/product-images/produc-image-1.jpeg",
+            image: "/IMG/product-images/produc-image-1.jpeg",
             price: 200,
             priceDiscount: 149.9,
         },
 
         {
             name: "Nome do produto",
-            image: "/public/IMG/product-images/produc-image-2.jpeg",
+            image: "/IMG/product-images/produc-image-2.jpeg",
             price: 200,
             priceDiscount: 149.9,
         },
 
         {
             name: "Nome do produto",
-            image: "/public/IMG/product-images/produc-image-3.jpeg",
+            image: "/IMG/product-images/produc-image-3.jpeg",
             price: 200,
             priceDiscount: 149.9,
         },
 
         {
             name: "Nome do produto",
-            image: "/public/IMG/product-images/produc-image-4.jpeg",
+            image: "/IMG/product-images/produc-image-4.jpeg",
             price: 200,
             priceDiscount: 149.9,
         },

@@ -8,19 +8,19 @@ import 'swiper/css/bundle';
 
 export function HomePageCarousel() {
     const images = [
-        { "src": "/public/IMG/home-images/home-slide-1.jpeg" },
-        { "src": "/public/IMG/home-images/home-slide-2.jpeg" },
-        { "src": "/public/IMG/home-images/home-slide-3.jpeg" },
-        { "src": "/public/IMG/home-images/home-slide-4.jpeg" },
-        { "src": "/public/IMG/home-images/home-slide-5.jpeg" },
-        { "src": "/public/IMG/home-images/home-slide-6.jpeg" },
-        { "src": "/public/IMG/home-images/home-slide-7.jpeg" },
-        { "src": "/public/IMG/home-images/home-slide-8.jpeg" },
+        { "src": "/IMG/home-images/home-slide-1.jpeg" },
+        { "src": "/IMG/home-images/home-slide-2.jpeg" },
+        { "src": "/IMG/home-images/home-slide-3.jpeg" },
+        { "src": "/IMG/home-images/home-slide-4.jpeg" },
+        { "src": "/IMG/home-images/home-slide-5.jpeg" },
+        { "src": "/IMG/home-images/home-slide-6.jpeg" },
+        { "src": "/IMG/home-images/home-slide-7.jpeg" },
+        { "src": "/IMG/home-images/home-slide-8.jpeg" },
     ];
 
     return (
         <div className='gallery-container'>
-            <img className='orgament-svg' src="/public/svgs/Ornament.svg" />
+            <img className='orgament-svg' src="/svgs/Ornament.svg" />
             <Swiper
                 className='swiper-container'
                 modules={[Pagination, Keyboard, Autoplay]}

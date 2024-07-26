@@ -1,5 +1,5 @@
 import "./Article.css";
-import Pe from "./../../../public/svgs/laye.svg";
+import Pe from "/svgs/laye.svg";
 
 export function Article() {
     return (

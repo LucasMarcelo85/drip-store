@@ -1,7 +1,7 @@
-import footerLogo from "./../../../public/svgs/logo-footer.svg";
-import fbkLogo from "./../../../public/svgs/facebook.svg";
-import instaLogo from "./../../../public/svgs/instagram.svg";
-import ttLogo from "./../../../public/svgs/twitter.svg";
+import footerLogo from "/svgs/logo-footer.svg";
+import fbkLogo from "/svgs/facebook.svg";
+import instaLogo from "/svgs/instagram.svg";
+import ttLogo from "/svgs/twitter.svg";
 
 import "./Footer.css";
 

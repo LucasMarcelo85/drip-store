@@ -37,7 +37,7 @@ export function PageViewCarousel() {
                 {[0, 1, 2, 3].map((index) => (
                     <SwiperSlide key={index} className='swiper-slide'>
                         <figure key={activeIndex}>
-                            <img src="/public/IMG/White-Sneaker.png" />
+                            <img src="/IMG/White-Sneaker.png" />
                         </figure>
                     </SwiperSlide>
                 ))}
@@ -50,7 +50,7 @@ export function PageViewCarousel() {
                         className={activeIndex === index ? 'active' : ''}
                         onClick={() => handleThumbnailClick(index)}
                     >
-                        <img src="/public/IMG/White-Sneaker.png" />
+                        <img src="/IMG/White-Sneaker.png" />
                     </figure>
                 ))}
             </div>
