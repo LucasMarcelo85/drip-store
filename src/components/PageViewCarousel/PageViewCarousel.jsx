@@ -34,6 +34,7 @@ export function PageViewCarousel() {
                 onSlideChange={handleSlideChange}
                 initialSlide={activeIndex}
             >
+
                 {[0, 1, 2, 3].map((index) => (
                     <SwiperSlide key={index} className='swiper-slide'>
                         <figure key={activeIndex}>
