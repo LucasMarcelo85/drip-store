@@ -42,29 +42,32 @@ export function FilterGroup() {
                     </div>
 
                     <div className="catingoria">
-                        <h4>Categoria</h4>
+                        <div className="space1">
 
-                        <form>
-                            <div className="sportez">
-                                <input type="checkbox" id="esporte-e-lazer" value="ESPORTES-E-LAZER" />
-                                <label htmlFor="esporte-e-lazer">Esportes e lazer</label>
-                            </div>
+                            <h4>Categoria</h4>
 
-                            <div className="casa">
-                                <input type="checkbox" id="casual" value="CASUAL" />
-                                <label htmlFor="casual">Casual</label>
-                            </div>
+                            <form>
+                                <div className="sportez">
+                                    <input type="checkbox" id="esporte-e-lazer" value="ESPORTES-E-LAZER" />
+                                    <label htmlFor="esporte-e-lazer">Esportes e lazer</label>
+                                </div>
 
-                            <div className="util">
-                                <input type="checkbox" id="utilitario" value="UTILITARIO" />
-                                <label htmlFor="utilitario">Utilitário</label>
-                            </div>
+                                <div className="casa">
+                                    <input type="checkbox" id="casual" value="CASUAL" />
+                                    <label htmlFor="casual">Casual</label>
+                                </div>
 
-                            <div className="racha">
-                                <input type="checkbox" id="corrida" value="CORRIDA" />
-                                <label htmlFor="corrida">Corrida</label>
-                            </div>
-                        </form>
+                                <div className="util">
+                                    <input type="checkbox" id="utilitario" value="UTILITARIO" />
+                                    <label htmlFor="utilitario">Utilitário</label>
+                                </div>
+
+                                <div className="racha">
+                                    <input type="checkbox" id="corrida" value="CORRIDA" />
+                                    <label htmlFor="corrida">Corrida</label>
+                                </div>
+                            </form>
+                        </div>
                     </div>
 
                     <div className="gen">
