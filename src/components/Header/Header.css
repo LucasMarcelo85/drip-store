@@ -65,6 +65,11 @@
     border: none;
     font-weight: 700;
     padding: 10px 30px;
+    transition: all 0.3s ease;
+}
+
+.header-container > section > div > button:hover {
+    background-color: var(--tertiary);
 }
 
 .cart-img {

@@ -109,6 +109,7 @@
     color: var(--dark-gray-2);
     font-weight: 500;
 }
+
 .buy-box-footer > button {
     color: white;
     background-color: var(--warning);
@@ -119,4 +120,9 @@
     text-transform: uppercase;
     margin-top: 40px;
     border-radius: 7px;
+    transition: all 0.3s ease;
+}
+
+.buy-box-footer > button:hover {
+    background-color: #cf8900;
 }
