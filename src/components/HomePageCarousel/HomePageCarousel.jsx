@@ -26,6 +26,7 @@ export function HomePageCarousel() {
                 modules={[Pagination, Keyboard, Autoplay]}
                 keyboard={{ clickable: true }}
                 pagination={{ clickable: true }}
+                loop
                 autoplay={{
                     delay: 2500
                 }}
