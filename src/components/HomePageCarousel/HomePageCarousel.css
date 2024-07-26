@@ -72,6 +72,11 @@
     color: white;
     margin-top: 40px;
     background-color: var(--primary);
+    transition: all 0.3s ease;
+}
+
+.swiper-slide-container > div > button:hover {
+    background-color: var(--tertiary);
 }
 
 .swiper-slide-container figure {
