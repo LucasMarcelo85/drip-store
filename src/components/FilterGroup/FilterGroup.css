@@ -1,11 +1,10 @@
 aside {
-    width: 308px;
+    width: 330px;
     height: 720px;
     padding: 30px;
     gap: 20px;
     border-radius: 4px;
     background-color: white;
-    /* color: #474747; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -22,7 +21,7 @@ aside {
 }
 
 .linha {
-    width: 90%;
+    width: 100%;
     height: 1px;
     align-items: center;
     border: 1px solid #cccccc;
@@ -119,7 +118,7 @@ aside {
 
 /* início do bloco catingoria */
 .catingoria {
-    width: 136px;
+    width: 140px;
     height: 150px;
     gap: 10px;
     display: flex;
@@ -174,13 +173,13 @@ aside {
 }
 
 .sportez {
-    width: 136px;
+    width: 145px;
     height: 22px;
     gap: 10px;
 }
 
 .casa {
-    width: 79px;
+    width: 80px;
     height: 22px;
     gap: 10px;
 }
@@ -223,6 +222,7 @@ aside {
     line-height: 22px;
     letter-spacing: 0.25px;
     text-align: left;
+    cursor: pointer;
 }
 
 .gen input {
@@ -278,15 +278,6 @@ aside {
     line-height: 22px;
     letter-spacing: 0.25px;
     text-align: left;
+    cursor: pointer;
 }
-
 /* fim do bloco estado */
-
-/* .caixa {
-    width: 22px;
-height: 22px;
-border-radius: 2px;
-border: 1px;
-background-color: white;
-border: 1px solid #666666
-} */
