@@ -8,6 +8,15 @@
 
 A Drip-Store é um E-commerce feito em React com JavaScript, trata-se do projeto front-end final desenvolvido durante a imersão Full-Stack oferecido pelo governo do estado do Ceará em parceria com o Instituto Euvaldo Lovaldi (IEL) e a Agência de Desenvolvimento do Estado do Ceará (ADECE), o projeto foi feito com a participação de Isaac Lima, Lucas Marcelo e Matheus Gabriel
 
+<div> 
+
+<img src="https://github.com/user-attachments/assets/4f5ecc97-e58c-4edd-abe7-b662d9e06801" width="49%"/>
+<img src="https://github.com/user-attachments/assets/20364e3a-1218-483c-8765-ff8aa74f4fb5" width="49%"/>
+<img src="https://github.com/user-attachments/assets/102fe9f0-28ff-485f-8529-928c5f7e5579" width="98.5%"/>
+
+
+</div>
+
 ## Iniciar
 
 -   `git clone https://github.com/DevSaLLein/drip-store.git`
