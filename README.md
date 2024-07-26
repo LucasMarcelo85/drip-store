@@ -185,6 +185,10 @@ A Drip-Store é um E-commerce feito em React com JavaScript, trata-se do projeto
 | [<img src="https://github.com/LucasMarcelo85.png" height="90px">](https://github.com/LucasMarcelo85) |   Lucas Marcelo N Souza    | <div > <a href="https://github.com/LucasMarcelo85/Meu-portfolio" target="_blank"><img alt="" src="https://img.shields.io/badge/Portfolio-000?logo=vercel&logoColor=yellow&style=for-the-badge" style="vertical-align:center" width="120" /></a> <br> [<img src="https://img.shields.io/badge/-GitHub-black?style=for-the-badge&logo=github&logoColor=white" align="center" width="120"/>](https://github.com/LucasMarcelo85) <br> <a href="https://www.linkedin.com/in/marcelo-souza-882aab316" target="_blank" align="center" width="120"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank" align="center" width="120"></a> </div> |
 |   [<img src="https://github.com/MatheusDeV55.png" height="90px">](https://github.com/MatheusDeV55)   | Matheus Gabriel R de Paula |                                                                                                                                                                                                                                                                                   [<img src="https://img.shields.io/badge/-GitHub-black?style=for-the-badge&logo=github&logoColor=white"/>](https://github.com/MatheusDeV55)                                                                                                                                                                                                                                                                                    |
 
-## Licença
+## 📝Licença
 
--   O projeto está protegido pela "The Unlicense"
+-   Esse projeto está sob a licença "The Unlicense"
+
+## 🔖 Layout
+
+-   Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/design/cfb4F7ZXMFQmvmTn3PKI4z/DRIP-STORE---DIGITAL-COLLEGE?node-id=22-30)
