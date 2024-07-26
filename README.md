@@ -12,8 +12,7 @@ A Drip-Store é um E-commerce feito em React com JavaScript, trata-se do projeto
 
 <img src="https://github.com/user-attachments/assets/4f5ecc97-e58c-4edd-abe7-b662d9e06801" width="49%"/>
 <img src="https://github.com/user-attachments/assets/20364e3a-1218-483c-8765-ff8aa74f4fb5" width="49%"/>
-<img src="https://github.com/user-attachments/assets/102fe9f0-28ff-485f-8529-928c5f7e5579" width="98.5%"/>
-
+<img src="https://github.com/user-attachments/assets/df9d0978-36b2-4d7f-878d-0899bbc7bd2b" width="100%"/>
 
 </div>
 
