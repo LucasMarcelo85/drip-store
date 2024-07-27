@@ -30,8 +30,8 @@ A Drip-Store é um E-commerce feito em React com JavaScript, trata-se do projeto
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/People/Man%20Technologist.webp" alt="Man Technologist" width="25" height="25" /> Tecnologias utilizadas
 
     
-[<img src="https://techstack-generator.vercel.app/prettier-icon.svg" alt="icon" width="100" height="100" /> <br> <sub> Prettier </sub>](https://prettier.io/) | [<img src="https://techstack-generator.vercel.app/js-icon.svg" alt="icon" width="100" height="100" /> <br> <sub> JavaScript </sub>](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript) | [<img src="https://github.com/user-attachments/assets/729c9d30-f1de-45b0-85f2-bb8790282884" alt="icon" width="100" height="100" /> <br> <sub> GitHub </sub>](https://github.com) | [<img src="https://techstack-generator.vercel.app/react-icon.svg" alt="icon" width="100" height="100" /> <br> <sub> React </sub>](https://react.dev) |
-| :---: | :---: | :---: | :---: |  
+[<img src="https://techstack-generator.vercel.app/prettier-icon.svg" alt="icon" width="100" height="100" /> <br> <sub> Prettier </sub>](https://prettier.io/) | [<img src="https://techstack-generator.vercel.app/js-icon.svg" alt="icon" width="100" height="100" /> <br> <sub> JavaScript </sub>](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript) | [<img src="https://github.com/user-attachments/assets/729c9d30-f1de-45b0-85f2-bb8790282884" alt="icon" width="100" height="100" /> <br> <sub> GitHub </sub>](https://github.com) | [<img src="https://techstack-generator.vercel.app/react-icon.svg" alt="icon" width="100" height="100" /> <br> <sub> React </sub>](https://react.dev) | [<img src="https://media.tenor.com/F_aIpdp3hEwAAAAi/git-github.gif" alt="icon" width="150" height="100" /> <br> <sub> Git </sub>](https://git-scm.com) |
+| :---: | :---: | :---: | :---: | :---: |
 
 
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Objects/Card%20Index%20Dividers.webp" alt="Card Index Dividers" width="25" height="25" /> Organização de Pastas
