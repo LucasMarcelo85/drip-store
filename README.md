@@ -19,7 +19,7 @@ A Drip-Store é um E-commerce feito em React com JavaScript, trata-se do projeto
 
 -   `git clone https://github.com/DevSaLLein/drip-store.git`
 
--   `cd drip-store`
+-   `cd DripStore`
 
 -   `npm i`
 
