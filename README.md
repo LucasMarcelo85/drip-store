@@ -209,7 +209,7 @@ A DripStore é um E-commerce feito em React com JavaScript, trata-se do projeto 
 
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Objects/Memo.webp" alt="Memo" width="25" height="25" /> Licença
 
--   Esse projeto está sob a licença "The Unlicense"
+-   Esse projeto está sob a licença [The Unlicense](./LICENSE.txt).
 
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Activity/Artist%20Palette.webp" alt="Artist Palette" width="25" height="25" /> Layout
 
