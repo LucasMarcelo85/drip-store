@@ -197,3 +197,13 @@ A Drip-Store é um E-commerce feito em React com JavaScript, trata-se do projeto
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Activity/Artist%20Palette.webp" alt="Artist Palette" width="25" height="25" /> Layout
 
 -   Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/design/cfb4F7ZXMFQmvmTn3PKI4z/DRIP-STORE---DIGITAL-COLLEGE?node-id=22-30)
+
+<img src="https://github.com/user-attachments/assets/bbf2fc2c-29b6-47fa-a79b-67fb079095a9" width="195"/>
+<img src="https://github.com/user-attachments/assets/8f1ba22b-24a3-42af-bf41-455c1bddcd75" width="195"/>
+<img src="https://github.com/user-attachments/assets/0d54fd75-a5d4-410c-91b4-b999a81dcf06" width="195"/>
+<img src="https://github.com/user-attachments/assets/2efa1aa7-b17f-4e2e-944f-c6987c35905e" width="195"/>
+<img src="https://github.com/user-attachments/assets/021d7045-916b-4a39-969f-2f8073d4488f" width="195"/>
+
+
+
+
