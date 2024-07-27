@@ -48,7 +48,7 @@ A DripStore é um E-commerce feito em React com JavaScript, trata-se do projeto 
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Objects/Card%20Index%20Dividers.webp" alt="Card Index Dividers" width="25" height="25" /> Organização de Pastas
 
 <details>
-    <summary><strong>Arquitetura</strong></summary>
+    <summary><strong>Arquitetura</strong></summary><br>
 
 ```
 ├── .vscode/
