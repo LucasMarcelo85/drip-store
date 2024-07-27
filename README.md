@@ -17,15 +17,25 @@ A Drip-Store é um E-commerce feito em React com JavaScript, trata-se do projeto
 
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Travel%20and%20Places/Rocket.webp" alt="Rocket" width="25" height="25" /> Iniciar
 
--   `git clone https://github.com/DevSaLLein/drip-store.git`
-
--   `cd DripStore`
-
--   `npm i`
-
--   `npm run dev`
-
--   `abra no seu navergador na url localhost:3000`
+1.  Instalar a última versão LTS do [Node.js](https://nodejs.org)
+2.  Checar a instação com os bash comandos: `` node -v `` e `` npm -v ``
+3.  Clonar esse repositório com:
+```bash
+git clone https://github.com/DevSaLLein/drip-store.
+```
+4. Abrir o diretório criado através do clone com:
+```git
+cd DripStore
+```
+5. Baixar as dependências necessárias para o projeto com:
+```bash
+npm i
+```
+6. Abrir um servidor local com:
+```bash
+npm run dev
+```
+7.  abra no seu navergador na url localhost:3000
 
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/People/Man%20Technologist.webp" alt="Man Technologist" width="25" height="25" /> Tecnologias utilizadas
 
