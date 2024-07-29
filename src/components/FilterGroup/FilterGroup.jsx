@@ -42,7 +42,6 @@ export function FilterGroup() {
                     </div>
 
                     <div className="catingoria">
-                        <div className="space1">
 
                             <h4>Categoria</h4>
 
@@ -67,7 +66,6 @@ export function FilterGroup() {
                                     <label htmlFor="corrida">Corrida</label>
                                 </div>
                             </form>
-                        </div>
                     </div>
 
                     <div className="gen">
