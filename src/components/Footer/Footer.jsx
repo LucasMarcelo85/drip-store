@@ -17,7 +17,7 @@ export function Footer() {
                         <div className="dig-logo">
                             <img src={footerLogo} alt="Logo Digital Store" />
                             <p>
-                                Lorem ipsum dolor sit, amet consectetur adipisicing
+                                Lorem ipsum dolor sit, amet consectetur adipisicing,
                                 elit. Odio mollitia temporibus modi est qui distinctio!
                             </p>
                             <div className="redesLogo">
