@@ -1,0 +1,7 @@
+.search-product-container {
+    color: var(--dark-gray-2);
+    width: 332px;
+    height: 60px;
+    border-radius: 4px;
+    text-indent: 10px;
+}
