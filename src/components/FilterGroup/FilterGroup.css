@@ -209,6 +209,7 @@ aside {
     gap: 10px;
     display: flex;
     flex-direction: column;
+    color: #474747;
 }
 
 .gen h4 {
@@ -284,6 +285,7 @@ aside {
     display: flex;
     flex-direction: column;
     margin-top: 10px;
+    color: #474747;
 }
 
 .stado h4 {
@@ -296,7 +298,7 @@ aside {
     text-align: left;
 }
 
-.stado form label {
+.stado label {
     font-size: 14px;
     font-weight: 500;
     line-height: 22px;
@@ -307,8 +309,11 @@ aside {
     justify-content: center;
 }
 
-.stado input[type="radio"] + label::before {
-    content: '';
+.estado input[type="radio"] {
+    display: none;
+}
+
+.estado input[type="radio"] + label {
     width: 22px;
     height: 22px;
     border-radius: 50%;
@@ -316,15 +321,29 @@ aside {
     vertical-align: middle;
     background-color: #ffffff;
     border: 1px solid #666666;
-    margin-right: 10px;
-    /* padding: 50px; */
+    margin-right: 25px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    
 }
 
-.stado input[type="radio"]:checked + label::before {
+/* .estado input[type="radio"] + label::before {
+    width: 22px;
+    height: 22px;
+    display: inline-block;
+    vertical-align: top;
+    background-color: #ffffff;
+    border: 1px solid #666666;
+    margin-right: 25px;
+    margin-bottom: 10px;
+} */
+
+/* .estado input[type="radio"]:checked + label::before {
     width: 22px;
     height: 22px;
     box-sizing: border-box;
     background-color: #c92071;
     border: 1px solid #c92071;
-}
+} */
+
 /* fim do bloco estado */

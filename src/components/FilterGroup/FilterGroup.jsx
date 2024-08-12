@@ -94,15 +94,12 @@ export function FilterGroup() {
 
                         <form>
                             <div className="estado">
-                                <input type="radio" id="estado" value="estado1" />
-                                <label htmlFor="estado">Novo</label>
+                                <input type="radio" id="estad" value="estado1" />
+                                <label htmlFor="estado1">Novo</label>
 
-
-                                {/* </div><div className="vei"> */}
-                                <input type="radio" id="estado" value="estado2" />
-                                <label htmlFor="estado">Usado</label>
+                                <input type="radio" id="estad" value="estado2" />
+                                <label htmlFor="estado2">Usado</label>
                             </div>
-
                         </form>
                     </div>
                 </div>
