@@ -43,29 +43,29 @@ export function FilterGroup() {
 
                     <div className="catingoria">
 
-                            <h4>Categoria</h4>
+                        <h4>Categoria</h4>
 
-                            <form>
-                                <div className="sportez">
-                                    <input type="checkbox" id="esporte-e-lazer" value="ESPORTES-E-LAZER" />
-                                    <label htmlFor="esporte-e-lazer">Esportes e lazer</label>
-                                </div>
+                        <form>
+                            <div className="sportez">
+                                <input type="checkbox" id="esporte-e-lazer" value="ESPORTES-E-LAZER" />
+                                <label htmlFor="esporte-e-lazer">Esportes e lazer</label>
+                            </div>
 
-                                <div className="casa">
-                                    <input type="checkbox" id="casual" value="CASUAL" />
-                                    <label htmlFor="casual">Casual</label>
-                                </div>
+                            <div className="casa">
+                                <input type="checkbox" id="casual" value="CASUAL" />
+                                <label htmlFor="casual">Casual</label>
+                            </div>
 
-                                <div className="util">
-                                    <input type="checkbox" id="utilitario" value="UTILITARIO" />
-                                    <label htmlFor="utilitario">Utilitário</label>
-                                </div>
+                            <div className="util">
+                                <input type="checkbox" id="utilitario" value="UTILITARIO" />
+                                <label htmlFor="utilitario">Utilitário</label>
+                            </div>
 
-                                <div className="racha">
-                                    <input type="checkbox" id="corrida" value="CORRIDA" />
-                                    <label htmlFor="corrida">Corrida</label>
-                                </div>
-                            </form>
+                            <div className="racha">
+                                <input type="checkbox" id="corrida" value="CORRIDA" />
+                                <label htmlFor="corrida">Corrida</label>
+                            </div>
+                        </form>
                     </div>
 
                     <div className="gen">
@@ -93,14 +93,14 @@ export function FilterGroup() {
                         <h4>Estado</h4>
 
                         <form>
-                            <div className="nuevo">
-                                <input type="radio" id="novo" value="NOVO" />
-                                <label htmlFor="novo">Novo</label>
-                            </div>
+                            <div className="estado">
+                                <input type="radio" id="estado" value="estado1" />
+                                <label htmlFor="estado">Novo</label>
 
-                            <div className="vei">
-                                <input type="radio" id="usado" value="USADO" />
-                                <label htmlFor="usado">Usado</label>
+
+                                {/* </div><div className="vei"> */}
+                                <input type="radio" id="estado" value="estado2" />
+                                <label htmlFor="estado">Usado</label>
                             </div>
 
                         </form>

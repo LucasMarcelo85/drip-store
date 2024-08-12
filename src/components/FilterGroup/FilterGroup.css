@@ -55,7 +55,7 @@ aside {
 .markas form label {
     font-size: 14px;
     font-weight: 500;
-    line-height: 22px;
+    line-height: 25px;
     letter-spacing: 0.25px;
     text-align: center;
     cursor: pointer;
@@ -89,8 +89,8 @@ aside {
 }
 
 .ciaga {
-    width: 109px;
-    height: 22px;
+    width: 115px;
+    height: 25px;
     gap: 10px;
     display: flex;
     align-items: start;
@@ -98,7 +98,7 @@ aside {
 
 .wiss {
     width: 88px;
-    height: 22px;
+    height: 25px;
     gap: 10px;
     display: flex;
     align-items: start;
@@ -106,7 +106,7 @@ aside {
 
 .like {
     width: 63px;
-    height: 22px;
+    height: 25px;
     gap: 10px;
     display: flex;
     align-items: start;
@@ -114,7 +114,7 @@ aside {
 
 .juma {
     width: 71px;
-    height: 22px;
+    height: 25px;
     gap: 10px;
     display: flex;
     align-items: start;
@@ -179,25 +179,25 @@ aside {
 
 .sportez {
     width: 145px;
-    height: 22px;
+    height: 25px;
     gap: 10px;
 }
 
 .casa {
     width: 80px;
-    height: 22px;
+    height: 25px;
     gap: 10px;
 }
 
 .util {
     width: 91px;
-    height: 22px;
+    height: 25px;
     gap: 10px;
 }
 
 .racha {
     width: 84px;
-    height: 22px;
+    height: 25px;
     gap: 10px;
 }
 /* fim do bloco catingoria */
@@ -256,6 +256,24 @@ aside {
     background-color: #c92071;
     border: 1px solid #c92071;
 }
+
+.masc {
+    width: 115px;
+    height: 25px;
+    gap: 10px;
+}
+
+.femea {
+    width: 115px;
+    height: 25px;
+    gap: 10px;
+}
+
+.unisex {
+    width: 105px;
+    height: 25px;
+    gap: 10px;
+}
 /* fim do bloco gênero */
 
 /* início do bloco estado */
@@ -265,6 +283,7 @@ aside {
     gap: 10px;
     display: flex;
     flex-direction: column;
+    margin-top: 10px;
 }
 
 .stado h4 {
@@ -298,6 +317,7 @@ aside {
     background-color: #ffffff;
     border: 1px solid #666666;
     margin-right: 10px;
+    /* padding: 50px; */
 }
 
 .stado input[type="radio"]:checked + label::before {
