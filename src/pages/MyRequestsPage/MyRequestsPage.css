@@ -1,0 +1,7 @@
+.my-request-page-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 5%;
+    gap: 3rem;
+}

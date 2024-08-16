@@ -6,6 +6,7 @@ import lupa from "/svgs/Search.svg";
 import ellipse from "/svgs/ellipse.svg";
 
 import { Navigator } from '../Navigator/Navigator';
+import { Link } from "react-router-dom";
 
 export function Header() {
     return (
@@ -21,8 +22,10 @@ export function Header() {
                 </label>
 
                 <div>
-                    <a href="#"> Cadastra-se </a>
-                    <button>Entrar</button>
+                    <Link to={'/register'} > Cadastra-se </Link>
+                    <button>
+                        <Link to={'/login'} > Entrar </Link>
+                    </button>
                 </div>
 
                 <div className="cart-img-container">
