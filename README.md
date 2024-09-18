@@ -6,7 +6,7 @@
 
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Face%20with%20Monocle.png" alt="Face with Monocle" width="25" height="25" /> O que é a Drip-Store? <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Face%20with%20Raised%20Eyebrow.png" alt="Face with Raised Eyebrow" width="25" height="25" />
 
-A DripStore é um E-commerce feito em React com JavaScript, trata-se do projeto front-end final desenvolvido durante a imersão Full-Stack chamada de [Geração Tech](https://geracaotech.iel-ce.org.br) oferecido pelo [Governo do Estado do Ceará](https://www.ceara.gov.br) em parceria com o [Instituto Euvaldo Lovaldi (IEL)](https://iel-ce.org.br) e a [Agência de Desenvolvimento do Estado do Ceará (ADECE)](https://www.adece.ce.gov.br), o projeto foi feito com a participação de [Isaac Lima](https://github.com/DevSaLLein), [Lucas Marcelo](https://github.com/LucasMarcelo85) e [Matheus Gabriel](https://github.com/MatheusDeV55).
+## A DripStore é um E-commerce feito em React com JavaScript, trata-se do projeto front-end final desenvolvido durante a imersão Full-Stack chamada de [Geração Tech](https://geracaotech.iel-ce.org.br) oferecido pelo [Governo do Estado do Ceará](https://www.ceara.gov.br) em parceria com o [Instituto Euvaldo Lovaldi (IEL)](https://iel-ce.org.br) e a [Agência de Desenvolvimento do Estado do Ceará (ADECE)](https://www.adece.ce.gov.br), o projeto foi feito com a participação de [Isaac Lima](https://github.com/DevSaLLein), [Lucas Marcelo](https://github.com/LucasMarcelo85) e [Matheus Gabriel](https://github.com/MatheusDeV55).
 
 <div>
 
